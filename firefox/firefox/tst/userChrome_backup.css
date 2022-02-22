@@ -42,36 +42,20 @@
    +---+---+---+---+---+---+---*/
 
 
-  /* Comment this block out if you want to keep the default theme color. */
+  /* Comment this block out if you want to keep the default theme colour. */
   /* This will also work with custom colours from color.firefox.com. */
 
-  /* Theme color Suggestions
+  /* Theme Colour Suggestions
                                                Dark        Light   */
-  --window-color:                var(--zero-color);/* #1E2021;     #FAFAFC; */
-  --secondary-color:             var(--twenty-color);/* #191B1C;     #EAEAEC; */
-  --inverted-color:              #eeeede;/* #FAFAFC;     #1E2021; */
+  --window-colour:                var(--zero-color);/* #1E2021;     #FAFAFC; */
+  --secondary-colour:             var(--twenty-color);/* #191B1C;     #EAEAEC; */
+  --inverted-colour:              #eeeede;/* #FAFAFC;     #1E2021; */
 
-  --zero-color  :                 #FDFFF1;
-  --twenty-color:                 #caccc1;
-  --forty-color :                 #989991;
-  --sixty-color :                 #656660;
-  --font-color  :                 #2d2a2e;
-
-  /* html[data-theme='light'] {
-    --zero-color  :                 #FDFFF1;
-    --twenty-color:                 #caccc1;
-    --forty-color :                 #989991;
-    --sixty-color :                 #656660;
-    --font-color  :                 #2d2a2e;
-  }
-
-  html[data-theme='dark-pro'] {
-    --zero-color  :                 #2d2a2e;
-    --twenty-color:                 #575558;
-    --forty-color :                 #817f82;
-    --sixty-color :                 #abaaab;
-    --font-color  :                 #FDFFF1;
-  } */
+  --zero-color  :                 #2d2a2e;
+  --twenty-color:                 #575558;
+  --forty-color :                 #817f82;
+  --sixty-color :                 #abaaab;
+  --font-color  :                 #FDFFF1;
 
   /* Containter Tab Colours */
   --uc-identity-color-blue:      #7ED6DF;
@@ -84,7 +68,7 @@
   --uc-identity-color-purple:    #786FA6;
 
 
-  /* URL color in URL bar suggestions */
+  /* URL colour in URL bar suggestions */
   --urlbar-popup-url-color: var(--uc-identity-color-purple) !important;
 
 
@@ -113,12 +97,6 @@
    --container-tabs-indicator-margin: 10px;
 
 }
-
-*
-{
-    font-family: "Iosevka Aile" !important;
-}
-
 
 /* html[data-theme='dark'] {
   --zero-color  :                 #272822;
@@ -157,14 +135,7 @@ html[data-theme='dark-pro'] {
      #urlbar-zoom-button { display: none !important; }
 
      /* Make button small as Possible, hidden out of sight */
-     /* #PanelUI-button { margin-top: -5px; margin-bottom: 44px; } */
-     #PanelUI-button {
-         position: fixed;
-         top: 4px; right: 0;
-
-         display: block;
-
-    }
+     #PanelUI-button { margin-top: -5px; margin-bottom: 44px; }
 
      #PanelUI-menu-button {
 
@@ -205,37 +176,38 @@ html[data-theme='dark-pro'] {
 
  :root {
 
-     --uc-theme-color:                          var(--window-color,    var(--toolbar-bgcolor));
-     --uc-hover-color:                          var(--secondary-color, rgba(0, 0, 0, 0.2));
-     --uc-inverted-color:                       var(--inverted-color,  var(--toolbar-color));
+     --uc-theme-colour:                          var(--window-colour,    var(--toolbar-bgcolor));
+     --uc-hover-colour:                          var(--secondary-colour, rgba(0, 0, 0, 0.2));
+     --uc-inverted-colour:                       var(--inverted-colour,  var(--toolbar-color));
 
-     --button-bgcolor:                           var(--uc-theme-color)    !important;
-     --button-hover-bgcolor:                     var(--uc-hover-color)    !important;
-     --button-active-bgcolor:                    var(--uc-hover-color)    !important;
+     --button-bgcolor:                           var(--uc-theme-colour)    !important;
+     --button-hover-bgcolor:                     var(--uc-hover-colour)    !important;
+     --button-active-bgcolor:                    var(--uc-hover-colour)    !important;
 
      --toolbarbutton-border-radius:              var(--uc-border-radius)   !important;
 
      --tab-border-radius:                        var(--uc-border-radius)   !important;
-     --lwt-text-color:                           var(--uc-inverted-color) !important;
-     --lwt-tab-text:                             var(--uc-inverted-color) !important;
+     --lwt-text-color:                           var(--uc-inverted-colour) !important;
+     --lwt-tab-text:                             var(--uc-inverted-colour) !important;
 
      --arrowpanel-border-radius:                 var(--uc-border-radius)   !important;
 
      --tab-block-margin: 2px !important;
 
  }
-/*#nav-bar*/
-/*#TabsToolbar,*/
+
 #window,
 #toolbar-menubar,
+#TabsToolbar,
 #PersonalToolbar,
-#navigator-toolbox{
+#navigator-toolbox,
+#nav-bar {
 
     -moz-appearance: none !important;
 
     border: none !important;
     box-shadow: none !important;
-    background: var(--uc-theme-color) !important;
+    background: var(--uc-theme-colour) !important;
 
 }
 
@@ -255,8 +227,8 @@ html[data-theme='dark-pro'] {
     overflow: hidden;
     min-width: 40px;
     max-width: 40px;
-    transition: all 0.2s ease-out 0s;
-    border-right: none !important;
+    transition: all 0.2s ease-out 0.2s;
+    border-right: 0px solid #0c0c0d;
     z-index: 2;
 }
 
@@ -267,29 +239,8 @@ html[data-theme='dark-pro'] {
     min-width: 500px !important;
     max-width: 500px !important;
     transition: all 0.2s ease-out 0s;
-    border-right: none !important;
     z-index: 1;
 }
-
-#sidebar {
-  border-right: none !important;
-}
-
-#sidebar{
-  background-color: var(--window-color) !important;
-}
-
-@media {
-    :root{
-        --dark-sidebar: var(--window-color) !important;
-        --dark-sidebar-text: var(--font-color) !important;
-        --dark-sidebar-border: var(--window-color) !important;
-        --sidebar-border: none !important;
-        --in-content-box-background: var(--window-color) !important;
-    }
-}
-
-/* =========================== main window =========================== */
 
 #main-window[tabsintitlebar="true"]:not([extradragspace="true"]) #TabsToolbar
     > .toolbar-items {
@@ -300,18 +251,14 @@ html[data-theme='dark-pro'] {
     visibility: collapse !important;
 }
 
-#main-window{
-  border-left: 0px;
-}
-
 /* grey out ccons inside the toolbar to make it
- * more aligned with the Black & White color look */
+ * more aligned with the Black & White colour look */
 #PersonalToolbar toolbarbutton:not(:hover),
 #bookmarks-toolbar-button:not(:hover) { filter: grayscale(1) !important; }
 
 
 /* remove window control buttons */
-/* .titlebar-buttonbox-container { display: none !important; } */
+.titlebar-buttonbox-container { display: none !important; }
 
 
 /* remove "padding" left and right from tabs */
@@ -336,17 +283,17 @@ html[data-theme='dark-pro'] {
 /* tab background */
 .tabbrowser-tab
     > .tab-stack
-    > .tab-background { background: var(--uc-theme-color) !important; }
+    > .tab-background { background: var(--uc-theme-colour) !important; }
 
 
 /* active tab background */
 .tabbrowser-tab[selected]
     > .tab-stack
-    > .tab-background { background: var(--uc-hover-color) !important; }
+    > .tab-background { background: var(--uc-hover-colour) !important; }
 
 
 /* multi tab selection */
-#tabbrowser-tabs:not([noshadowfortests]) .tabbrowser-tab:is([visuallyselected=true], [multiselected]) > .tab-stack > .tab-background:-moz-lwtheme { background: var(--uc-hover-color) !important; }
+#tabbrowser-tabs:not([noshadowfortests]) .tabbrowser-tab:is([visuallyselected=true], [multiselected]) > .tab-stack > .tab-background:-moz-lwtheme { background: var(--uc-hover-colour) !important; }
 
 
 /* tab close button options */
@@ -400,8 +347,8 @@ html[data-theme='dark-pro'] {
 
   color: currentColor !important;
 
-  stroke: var(--uc-theme-color) !important;
-  background-color: var(--uc-theme-color) !important;
+  stroke: var(--uc-theme-colour) !important;
+  background-color: var(--uc-theme-colour) !important;
 
 }
 
@@ -409,8 +356,8 @@ html[data-theme='dark-pro'] {
 /* change the colours of the speaker icon on active tab to match tab colours */
 .tabbrowser-tab[selected] .tab-icon-overlay:not([sharing], [crashed]):is([soundplaying], [muted], [activemedia-blocked]) {
 
-  stroke: var(--uc-hover-color) !important;
-  background-color: var(--uc-hover-color) !important;
+  stroke: var(--uc-hover-colour) !important;
+  background-color: var(--uc-hover-colour) !important;
 
 }
 
@@ -434,8 +381,8 @@ html[data-theme='dark-pro'] {
 .tab-icon-overlay:not([crashed])[activemedia-blocked]:hover {
 
     color: currentColor !important;
-    stroke: var(--uc-inverted-color) !important;
-    background-color: var(--uc-inverted-color) !important;
+    stroke: var(--uc-inverted-colour) !important;
+    background-color: var(--uc-inverted-colour) !important;
     fill-opacity: 0.95 !important;
 
 }
@@ -446,23 +393,23 @@ html[data-theme='dark-pro'] {
 .tabbrowser-tab[selected] .tab-icon-overlay:not([crashed])[activemedia-blocked]:hover {
 
     color: currentColor !important;
-    stroke: var(--uc-inverted-color) !important;
-    background-color: var(--uc-inverted-color) !important;
+    stroke: var(--uc-inverted-colour) !important;
+    background-color: var(--uc-inverted-colour) !important;
     fill-opacity: 0.95 !important;
 
 }
 
 
-/* speaker icon color fix */
+/* speaker icon colour fix */
 #TabsToolbar .tab-icon-overlay:not([crashed])[soundplaying],
 #TabsToolbar .tab-icon-overlay:not([crashed])[muted],
-#TabsToolbar .tab-icon-overlay:not([crashed])[activemedia-blocked] { color: var(--uc-inverted-color) !important; }
+#TabsToolbar .tab-icon-overlay:not([crashed])[activemedia-blocked] { color: var(--uc-inverted-colour) !important; }
 
 
-/* speaker icon color fix on hover */
+/* speaker icon colour fix on hover */
 #TabsToolbar .tab-icon-overlay:not([crashed])[soundplaying]:hover,
 #TabsToolbar .tab-icon-overlay:not([crashed])[muted]:hover,
-#TabsToolbar .tab-icon-overlay:not([crashed])[activemedia-blocked]:hover { color: var(--uc-theme-color) !important; }
+#TabsToolbar .tab-icon-overlay:not([crashed])[activemedia-blocked]:hover { color: var(--uc-theme-colour) !important; }
 
 
 
@@ -490,7 +437,7 @@ html[data-theme='dark-pro'] {
 }
 
 
-#urlbar-background { border: var(--uc-hover-color) !important; }
+#urlbar-background { border: var(--uc-hover-colour) !important; }
 
 
 #urlbar[focused="true"]
@@ -500,13 +447,13 @@ html[data-theme='dark-pro'] {
 
 
 #urlbar[open]
-    > #urlbar-background { background: var(--uc-theme-color) !important; }
+    > #urlbar-background { background: var(--uc-theme-colour) !important; }
 
 
 .urlbarView-row:hover
     > .urlbarView-row-inner,
 .urlbarView-row[selected]
-    > .urlbarView-row-inner { background: var(--uc-hover-color) !important; }
+    > .urlbarView-row-inner { background: var(--uc-hover-colour) !important; }
 
 
 
@@ -533,9 +480,9 @@ html[data-theme='dark-pro'] {
 
 } /* end media query */
 
-@-moz-document regexp(/moz-extension:\/\/.+\/resources\/group-tab.html.+) {
+@-moz-document regexp("moz-extension://.+/resources/group-tab.html.*") {
   :root {
-    background: var(--window-color) !important;
+    background: var(--window-colour) !important;
   }
 }
 
