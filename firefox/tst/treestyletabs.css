@@ -88,7 +88,7 @@ tab-item .extra-items-container.indent {
 .tab {
   background-color: var(--zero-color);/*var(--grey24);*/
   height: var(--tab-height);
-  font-family:"Iosevka Aoile" !important; /*"CozetteVector"*/
+  font-family:"Iosevka Aile" !important; /*"CozetteVector"*/
 }
 
 /* tab contents text*/
@@ -99,6 +99,7 @@ tab-item .extra-items-container.indent {
   font-size: var(--font-size);
   color: var(--twenty-color); /*var(--grey6f)*/
   line-height: var(--tab-height);
+  background-color: transparent;
 }
 
 /* number of tab children */
@@ -112,6 +113,16 @@ tab-item .extra-items-container.indent {
 .tab.active .label {
   color: var(--font-color); /*var(--greybe)*/
   background-color:transparent;
+}
+
+.tab.discarded .label {
+    color: var(--forty-color);
+    background-color: transparent;
+}
+
+.tab.discarded .counter {
+    color: var(--forty-color);
+    background-color: transparent;
 }
 
 /* active tab, whole area */
@@ -148,7 +159,7 @@ tab-item-substance {
   opacity:1;
 }
 
-/* cannot get rid of the hover background colour without using span */
+/* cannot get rid of the hover background color without using span */
 .tab span {
   background-color: rgba(red(var(--zero-color)), green(var(--zero-color)), blue(var(--zero-color)), 0.2) !important;
 }
@@ -255,7 +266,7 @@ tab-twisty::before {
 
 /* unloaded tab */
 .tab.discarded {
-  background-color: black;
+  background-color: var(--forty-color);
 }
 
 /* hide hidden tabs (it some times displays white area on larger tab sizes if this is not set) */
