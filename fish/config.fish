@@ -51,7 +51,3 @@ source ~/.tacklebox/tacklebox.fish
 
 # for starship prompt
 starship init fish | source
-
-# making npm work
-
-set PATH /usr/local/Cellar/node/17.5.0/bin $PATH

@@ -33,23 +33,15 @@
  | C | O | N | F | I | G |
  +---+---+---+---+---+---*/
 
-/* Feel free to tweak the following
- * config settingsto your own liking. */
-
 :root {
-  /*---+---+---+---+---+---+---+
-   | C | O | L | O | U | R | S |
-   +---+---+---+---+---+---+---*/
+  /*---+---+---+---+---+---+
+   | C | O | L | O | R | S |
+   +---+---+---+---+---+---*/
 
-
-  /* Comment this block out if you want to keep the default theme color. */
-  /* This will also work with custom colours from color.firefox.com. */
-
-  /* Theme color Suggestions
-                                               Dark        Light   */
-  --window-color:                var(--zero-color);/* #1E2021;     #FAFAFC; */
-  --secondary-color:             var(--twenty-color);/* #191B1C;     #EAEAEC; */
-  --inverted-color:              #eeeede;/* #FAFAFC;     #1E2021; */
+                                                        /*   Dark        Light   */
+  --window-color:                var(--zero-color);     /* #1E2021;     #FAFAFC; */
+  --secondary-color:             var(--twenty-color);   /* #191B1C;     #EAEAEC; */
+  --inverted-color:              #eeeede;               /* #FAFAFC;     #1E2021; */
 
   --zero-color  :                 #FDFFF1;
   --twenty-color:                 #caccc1;
@@ -526,7 +518,7 @@ html[data-theme='dark-pro'] {
       margin-top: calc((var(--urlbar-min-height) * -1) - 8px) !important;
       margin-right:  calc(100vw - var(--uc-urlbar-width)) !important;
       margin-bottom: 0 !important;
-      margin-left: 40px !important;
+      margin-left: 80px !important;
 
     }
 
