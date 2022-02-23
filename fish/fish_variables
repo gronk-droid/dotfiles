@@ -28,4 +28,4 @@ SETUVAR fish_pager_color_completion:75715E
 SETUVAR fish_pager_color_description:49483E
 SETUVAR fish_pager_color_prefix:F8F8F2
 SETUVAR fish_pager_color_progress:F8F8F2
-SETUVAR fish_user_paths:/usr/local/sbin
+SETUVAR fish_user_paths:/usr/local/bin\x1e/usr/local/sbin
