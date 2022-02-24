@@ -9,7 +9,7 @@
   "atom-material-ui":
     colors:
       abaseColor: "#eeeede"
-      accentColor: "#ececf9"
+      accentColor: "#eeeede"
       genAccent: true
     fonts: {}
     tabs:
@@ -40,9 +40,11 @@
     telemetryConsent: "limited"
     themes: [
       "atom-material-ui"
-      "atom-monokai"
+      "monokai"
     ]
-    titleBar: "custom-inset"
+    titleBar: "hidden"
+  "custom-title":
+    template: "<%= fileName %><% if (projectPath) { %> - <%= projectPath %><% if (gitHead) { %> [<%= gitHead %>]<% } %><% } %>"
   editor:
     fontFamily: "Fira Code NF, Menlo, Consolas, DejaVu Sans Mono, monospace"
     fontSize: 17
@@ -100,9 +102,10 @@
   "python-tools":
     pythonPath: "/usr/local/Cellar/python@3.9/3.9.10/bin"
   "sync-settings":
+    autoCheckForUpdatedBackup: "no"
     gistId: "fd35d81711ecf6cc4eb7ac5c85d371dc"
     hiddenSettings:
-      _lastBackupTime: "2022-02-24T00:44:23Z"
+      _lastBackupTime: "2022-02-24T01:52:00Z"
     personalAccessToken: "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"
     removeObsoletePackages: true
     useGistProxy: false
@@ -114,9 +117,11 @@
       autoClose: true
   "title-bar-replacer":
     colors:
-      controlTheme: "Yosemite"
-      style: "Spacious"
-    general: {}
+      autoSelectColor: false
+      baseColor: "#eeeede"
+      controlTheme: "Arc"
+    general:
+      autoHide: true
   "tool-bar":
     position: "Left"
   welcome:
