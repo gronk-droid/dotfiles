@@ -99,6 +99,13 @@
     traverseIntoSymlinkDirectories: true
   "python-tools":
     pythonPath: "/usr/local/Cellar/python@3.9/3.9.10/bin"
+  "sync-settings":
+    gistId: "fd35d81711ecf6cc4eb7ac5c85d371dc"
+    hiddenSettings:
+      _lastBackupTime: "2022-02-24T00:44:23Z"
+    personalAccessToken: "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"
+    removeObsoletePackages: true
+    useGistProxy: false
   "terminal-plus":
     core:
       mapTerminalsTo: "File"

@@ -30,6 +30,9 @@ funcsave finder
 alias pipes "pipes-rs"
 funcsave pipes
 
+set -Ux GITHUB_TOKEN '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'
+set -Ux GIST_ID 'fd35d81711ecf6cc4eb7ac5c85d371dc'
+
 # alias NPM_CONFIG_PREFIX ~/.npm-global
 # funcsave NPM_CONFIG_PREFIX
 
