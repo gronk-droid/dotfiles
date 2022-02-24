@@ -1,0 +1,123 @@
+"*":
+  "atom-beautify":
+    css: {}
+    general:
+      _analyticsUserId: "37220172-a723-4b48-aaaf-101d9250a9a5"
+      beautifyEntireFileOnSave: false
+  "atom-ide-outline":
+    initialDisplay: false
+  "atom-material-ui":
+    colors:
+      abaseColor: "#eeeede"
+      accentColor: "#ececf9"
+      genAccent: true
+    fonts: {}
+    tabs:
+      noTabMinWidth: true
+      stretchedTabs: true
+      tintedTabBar: true
+    ui:
+      panelContrast: true
+  "atom-python-run":
+    terminal: [
+      "hyper"
+    ]
+  "atom-python-virtualenv":
+    getWorkOnHome: "$HOME/.virtualenvs;"
+  "autocomplete-python": {}
+  "bracket-colorizer":
+    brackets: [
+      "{}"
+      "()"
+      "[]"
+      "<>"
+    ]
+  "color-tabs":
+    backgroundStyle: "none"
+    borderSize: 2
+    borderStyle: "bottom"
+  core:
+    telemetryConsent: "limited"
+    themes: [
+      "atom-material-ui"
+      "atom-monokai"
+    ]
+    titleBar: "custom-inset"
+  editor:
+    fontFamily: "Fira Code NF, Menlo, Consolas, DejaVu Sans Mono, monospace"
+    fontSize: 17
+    softWrap: true
+    tabLength: 4
+  "exception-reporting":
+    userId: "9d0303ff-0dea-496a-a843-b9971b9c76ad"
+  "file-icons": {}
+  fonts:
+    fontFamily: "Fira Mono"
+  gist: {}
+  "gist-it":
+    newGistsDefaultToPrivate: true
+  github: {}
+  "ide-python": {}
+  kite:
+    showWelcomeNotificationOnStartup: false
+  "linter-ui-default":
+    useBusySignal: false
+  "no-title-bar": {}
+  "one-dark-ui":
+    tabSizing: "Maximum"
+  "pdf-view-plus":
+    closeViewWhenFileDeleted: true
+  pigments:
+    autocompleteScopes: [
+      ".source.css"
+      ".source.css.less"
+      ".source.sass"
+      ".source.css.scss"
+      ".source.stylus"
+      ".css"
+      ".fish"
+    ]
+    autocompleteSuggestionsFromValue: true
+    filetypesForColorWords: [
+      "css"
+      "less"
+      "styl"
+      "stylus"
+      "sass"
+      "scss"
+      "fish"
+    ]
+    sourceNames: [
+      "**/*.css"
+      "**/*.styl"
+      "**/*.stylus"
+      "**/*.less"
+      "**/*.sass"
+      "**/*.scss"
+      "**/*.fish"
+    ]
+    traverseIntoSymlinkDirectories: true
+  "python-tools":
+    pythonPath: "/usr/local/Cellar/python@3.9/3.9.10/bin"
+  "terminal-plus":
+    core:
+      mapTerminalsTo: "File"
+      workingDirectory: "Active File"
+    toggles:
+      autoClose: true
+  "title-bar-replacer":
+    colors:
+      controlTheme: "Yosemite"
+      style: "Spacious"
+    general: {}
+  "tool-bar":
+    position: "Left"
+  welcome:
+    showOnStartup: false
+".applescript.source":
+  editor:
+    showIndentGuide: true
+    tabLength: 4
+".css.less.source":
+  editor:
+    showIndentGuide: false
