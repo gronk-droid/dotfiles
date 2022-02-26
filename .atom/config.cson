@@ -37,6 +37,12 @@
     borderSize: 2
     borderStyle: "bottom"
   core:
+    disabledPackages: [
+      "python-tools"
+      "script"
+      "markdown-preview"
+    ]
+    packagesWithKeymapsDisabled: []
     telemetryConsent: "limited"
     themes: [
       "atom-material-ui"
@@ -64,9 +70,23 @@
     showWelcomeNotificationOnStartup: false
   "linter-ui-default":
     useBusySignal: false
+  "markdown-preview-plus":
+    renderer: "pandoc"
+    saveConfig:
+      defaultSaveFormat: "pdf"
+      makePDFOverwrite: true
+      openOnSave:
+        pdf: true
+      saveToPDFOptions:
+        latexRenderer: "HTML-CSS"
+    style: "github"
+  "markdown-writer":
+    tableAlignment: "center"
   "no-title-bar": {}
   "one-dark-ui":
     tabSizing: "Maximum"
+  "pandoc-pdf":
+    pandocPdfEngine: "wkhtmltopdf"
   "pdf-view-plus":
     closeViewWhenFileDeleted: true
   pigments:
@@ -120,8 +140,11 @@
       autoSelectColor: false
       baseColor: "#eeeede"
       controlTheme: "Arc"
+      highlightColor: "#656660"
+      textColor: "#2d2a2e"
     general:
-      autoHide: true
+      altGivesFocus: false
+      displayMenuBar: false
   "tool-bar":
     position: "Left"
   welcome:
