@@ -37,6 +37,10 @@
     borderSize: 2
     borderStyle: "bottom"
   core:
+    disabledPackages: [
+      "markdown-preview"
+      "ide-c-cpp"
+    ]
     telemetryConsent: "limited"
     themes: [
       "atom-material-ui"
@@ -44,7 +48,7 @@
     ]
     titleBar: "custom-inset"
   editor:
-    fontFamily: "Fira Code NF, Menlo, Consolas, DejaVu Sans Mono, monospace"
+    fontFamily: "Iosevka NF, SF Pro, Menlo, Consolas, DejaVu Sans Mono, monospace"
     fontSize: 17
     softWrap: true
     tabLength: 4
@@ -62,11 +66,23 @@
     showWelcomeNotificationOnStartup: false
   "linter-ui-default":
     useBusySignal: false
+  "markdown-preview-plus":
+    renderer: "pandoc"
+    saveConfig:
+      defaultSaveFormat: "pdf"
+      makePDFOverwrite: true
+      openOnSave:
+        html: false
+        pdf: true
+    style: "github"
   "no-title-bar": {}
   "one-dark-ui":
     tabSizing: "Maximum"
+  "pandoc-pdf":
+    pandocPdfEngine: "wkhtmltopdf"
   "pdf-view-plus":
     closeViewWhenFileDeleted: true
+  "pdfjs-viewer": {}
   pigments:
     autocompleteScopes: [
       ".source.css"
@@ -100,9 +116,10 @@
   "python-tools":
     pythonPath: "/usr/local/Cellar/python@3.9/3.9.10/bin"
   "sync-settings":
+    autoCheckForUpdatedBackup: "no"
     gistId: "fd35d81711ecf6cc4eb7ac5c85d371dc"
     hiddenSettings:
-      _lastBackupTime: "2022-02-24T00:44:23Z"
+      _lastBackupTime: "2022-02-24T01:52:00Z"
     personalAccessToken: "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"
     removeObsoletePackages: true
     useGistProxy: false

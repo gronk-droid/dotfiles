@@ -5,18 +5,18 @@ PLUGIN_DIR="$HOME/.config/sketchybar/plugins" # Directory where all the plugin s
 
 LOADING=􀖇 # Icon displayed while an item is still initializing
 PADDINGS=3 # All paddings use this value (icon, label, background and bar paddings)
-FONT="FiraCode NF" # Needs to have Regular, Bold, Semibold, Heavy and Black variants
-BAR_COLOR=0xff2D2A2E # Black bar
-ICON_COLOR=0xffeeeede # Color of all icons
-LABEL_COLOR=0xffeeeede # Color of all labels
-CONTRAST_COLOR=$ICON_COLOR #0xff2a2f38 # The color of elements in front of a background
+FONT="Iosevka Aile" # Needs to have Regular, Bold, Semibold, Heavy and Black variants
+BAR_COLOR=0xffFDFFF1 # Black bar
+ICON_COLOR=0xff2d2a2e # Color of all icons
+LABEL_COLOR=0xff2d2a2e # Color of all labels
+CONTRAST_COLOR=$ICON_COLOR #0xffFDFFF1 # The color of elements in front of a background
 SPACE_CLICK_SCRIPT="yabai -m space --focus \$SID" # The script that is run for clicking on space components
 
 SEGMENT_HEIGHT=28 # The height of the segments
 SEGMENT_SPACING=13 # The spacing between the segments
 SEGMENT_BORDER_WIDTH=0 # Width of the borders for segments
 SEGMENT_BACKGROUND_COLOR=0x00000000 # The background color for segments
-SEGMENT_BACKGROUND_HIGHLIGHT_COLOR=$SEGMENT_BACKGROUND_COLOR # 0xffe1e3e4 # The background highlight color for segments (borders, etc)
+SEGMENT_BACKGROUND_HIGHLIGHT_COLOR=$SEGMENT_BACKGROUND_COLOR # 0xffFDFFF1 # The background highlight color for segments (borders, etc)
 CORNER_RADIUS=4 # Roundness of the segments
 
 POPUP_BACKGROUND_COLOR=$BAR_COLOR
