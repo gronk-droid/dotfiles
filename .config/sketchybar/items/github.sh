@@ -1,4 +1,4 @@
-#!/usr/bin/env sh
+#!/bin/bash
 
 sketchybar --add       event              brew_upgrade                             \
            --add       event              git_push                                 \

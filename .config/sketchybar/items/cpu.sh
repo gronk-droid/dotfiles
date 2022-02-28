@@ -1,4 +1,4 @@
-#!/usr/bin/env sh
+#!/bin/bash
 
 sketchybar --add       item               cpu.separator right                           \
            --set       cpu.separator      icon.drawing=off                              \

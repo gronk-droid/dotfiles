@@ -1,19 +1,18 @@
-#!/usr/bin/env sh
+#!/bin/bash
 
 sketchybar --add       space              space_template left                \
            --set       space_template     icon.highlight_color=0xffFF6188    \
                                           label.drawing=off                  \
+                                          icon.font="$FONT:Regular:29.0"     \
                                           drawing=off                        \
                                           updates=on                         \
                                           associated_display=1               \
-                                          label.font="$FONT:Black:13.0"      \
-                                          icon.font="$FONT:Bold:17.0"        \
                                           script="$PLUGIN_DIR/space.sh"      \
                                           click_script="$SPACE_CLICK_SCRIPT" \
                                                                              \
            --clone     spaces_1.label     label_template                     \
            --set       spaces_1.label     label=spc                          \
-                                          label.width=38                     \
+                                          label.padding=38                   \
                                           label.align=center                 \
                                           associated_display=1               \
                                           position=left                      \
@@ -21,25 +20,25 @@ sketchybar --add       space              space_template left                \
                                                                              \
            --clone     web                space_template                     \
            --set       web                associated_space=1                 \
-                                          icon=􀣚                            \
+                                          icon=                             \
                                           icon.highlight_color=0xffFF6188    \
                                           drawing=on                         \
                                                                              \
            --clone     code               space_template                     \
            --set       code               associated_space=2                 \
-                                          icon=􀪏                            \
+                                          icon=                             \
                                           icon.highlight_color=0xffFFD866    \
                                           drawing=on                         \
                                                                              \
            --clone     communication      space_template                     \
            --set       communication      associated_space=3                 \
-                                          icon=􀌳                            \
+                                          icon=                             \
                                           icon.highlight_color=0xff78DCE8    \
                                           drawing=on                         \
                                                                              \
            --clone     background         space_template                     \
            --set       background         associated_space=4                 \
-                                          icon=􀽎                            \
+                                          icon=                            \
                                           icon.highlight_color=0xffAB9DF2    \
                                           drawing=on                         \
                                                                              \

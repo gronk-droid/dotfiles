@@ -1,4 +1,4 @@
-#!/usr/bin/env sh
+#!/bin/bash
 
 SPOTIFY_EVENT="com.spotify.client.PlaybackStateChanged" # Spotify Event for track changes
 

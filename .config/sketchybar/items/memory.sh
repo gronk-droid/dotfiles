@@ -1,4 +1,4 @@
-#!/usr/bin/env sh
+#!/bin/bash
 
 sketchybar --add       item               topmem left                                   \
            --set       topmem             associated_space=1                            \

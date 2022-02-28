@@ -1,4 +1,4 @@
-#!/usr/bin/env sh
+#!/bin/bash
 
 sketchybar --clone     network.label      label_template                                \
            --set       network.label      label=net                                     \
