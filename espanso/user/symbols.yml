@@ -31,3 +31,9 @@ matches:
 
   - trigger: ":upperdelta"
     replace: "Δ"
+
+  - trigger: ":naturalnum"
+    replace: "ℕ"
+
+  - trigger: ":equiv"
+    replace: "≡"
