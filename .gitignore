@@ -6,3 +6,5 @@
 /.atom/compile-cache/
 /.atom/packages/
 /.atom/storage/
+
+/.atom/kite-config.json
