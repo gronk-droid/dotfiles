@@ -41,6 +41,7 @@
       "python-tools"
       "script"
       "markdown-preview"
+      "language-gfm"
     ]
     packagesWithKeymapsDisabled: []
     telemetryConsent: "limited"
