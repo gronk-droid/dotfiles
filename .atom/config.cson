@@ -9,14 +9,15 @@
   "atom-material-ui":
     colors:
       abaseColor: "#eeeede"
-      accentColor: "#ececf9"
+      accentColor: "#eeeede"
       genAccent: true
     fonts: {}
     tabs:
       noTabMinWidth: true
       stretchedTabs: true
       tintedTabBar: true
-    ui: {}
+    ui:
+      panelContrast: true
   "atom-python-run":
     terminal: [
       "hyper"
@@ -37,19 +38,22 @@
     borderStyle: "bottom"
   core:
     disabledPackages: [
+      "python-tools"
+      "script"
       "markdown-preview"
-      "ide-c-cpp"
       "language-gfm"
     ]
-    excludeVcsIgnoredPaths: false
+    packagesWithKeymapsDisabled: []
     telemetryConsent: "limited"
     themes: [
       "atom-material-ui"
       "monokai"
     ]
-    titleBar: "custom-inset"
+    titleBar: "hidden"
+  "custom-title":
+    template: "<%= fileName %><% if (projectPath) { %> - <%= projectPath %><% if (gitHead) { %> [<%= gitHead %>]<% } %><% } %>"
   editor:
-    fontFamily: "Iosevka NF, SF Pro, Menlo, Consolas, DejaVu Sans Mono, monospace"
+    fontFamily: "Fira Code NF, Menlo, Consolas, DejaVu Sans Mono, monospace"
     softWrap: true
     tabLength: 4
   "exception-reporting":
@@ -60,12 +64,17 @@
   gist: {}
   "gist-it":
     newGistsDefaultToPrivate: true
+  "git-plus":
+    general:
+      splitPane: "Right"
   github: {}
   "ide-python": {}
   kite:
     showWelcomeNotificationOnStartup: false
   "linter-ui-default":
+    showPanel: true
     useBusySignal: false
+  "markdown-pdf": {}
   "markdown-preview-plus":
     mathConfig:
       enableLatexRenderingByDefault: true
@@ -80,14 +89,18 @@
       saveToPDFOptions:
         latexRenderer: "HTML-CSS"
     style: "github"
+  "markdown-writer":
+    tableAlignment: "center"
   "no-title-bar": {}
   "one-dark-ui":
     tabSizing: "Maximum"
+  "package-sync":
+    createOnChange: true
+    forceOverwrite: true
   "pandoc-pdf":
     pandocPdfEngine: "wkhtmltopdf"
   "pdf-view-plus":
     closeViewWhenFileDeleted: true
-  "pdfjs-viewer": {}
   pigments:
     autocompleteScopes: [
       ".source.css"
@@ -124,7 +137,7 @@
     autoCheckForUpdatedBackup: "no"
     gistId: "fd35d81711ecf6cc4eb7ac5c85d371dc"
     hiddenSettings:
-      _lastBackupTime: "2022-02-24T01:52:00Z"
+      _lastBackupTime: "2022-03-06T05:14:50Z"
     personalAccessToken: "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"
     removeObsoletePackages: true
     useGistProxy: false
@@ -136,9 +149,14 @@
       autoClose: true
   "title-bar-replacer":
     colors:
-      controlTheme: "Yosemite"
-      style: "Spacious"
-    general: {}
+      autoSelectColor: false
+      baseColor: "#eeeede"
+      controlTheme: "Arc"
+      highlightColor: "#656660"
+      textColor: "#2d2a2e"
+    general:
+      altGivesFocus: false
+      displayMenuBar: false
   "tool-bar":
     position: "Left"
   welcome:
