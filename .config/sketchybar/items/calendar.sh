@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sketchybar --add       item               calendar.time right                           \
+sketchybar --add       item               calendar.time center                          \
            --set       calendar.time      update_freq=2                                 \
                                           icon.drawing=off                              \
                                           script="$PLUGIN_DIR/time.sh"                  \

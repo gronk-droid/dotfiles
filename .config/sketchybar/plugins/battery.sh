@@ -5,29 +5,6 @@ CHARGING=$(pmset -g batt | grep 'AC Power')
 
 sketchybar --set ${NAME} icon.color=0xff2d2a2e
 
-if [[ ${CHARGING} != "" ]]; then
-    sketchybar --set ${NAME} label="${BATT_PERCENT}%"
-    sleep .5
-    sketchybar --set ${NAME} icon=""
-    sleep .5
-    sketchybar --set ${NAME} icon=""
-    sleep .5
-    sketchybar --set ${NAME} icon=""
-    sleep .5
-    sketchybar --set ${NAME} icon=""
-    sleep .5
-    sketchybar --set ${NAME} icon=""
-    sleep .5
-    sketchybar --set ${NAME} icon=""
-    sleep .5
-    sketchybar --set ${NAME} icon=""
-    exit 0
-fi
-
-
-
-#TODO: Animate between the different charging icons
-
 case ${BATT_PERCENT} in
     100) ICON="" ;;
     9[0-9]) ICON="" ;;

@@ -39,17 +39,17 @@
     disabledPackages: [
       "markdown-preview"
       "ide-c-cpp"
+      "language-gfm"
     ]
     excludeVcsIgnoredPaths: false
     telemetryConsent: "limited"
     themes: [
       "atom-material-ui"
-      "atom-monokai"
+      "monokai"
     ]
     titleBar: "custom-inset"
   editor:
     fontFamily: "Iosevka NF, SF Pro, Menlo, Consolas, DejaVu Sans Mono, monospace"
-    fontSize: 17
     softWrap: true
     tabLength: 4
   "exception-reporting":
@@ -67,6 +67,9 @@
   "linter-ui-default":
     useBusySignal: false
   "markdown-preview-plus":
+    mathConfig:
+      enableLatexRenderingByDefault: true
+      latexRenderer: "HTML-CSS"
     renderer: "pandoc"
     saveConfig:
       defaultSaveFormat: "pdf"
@@ -74,6 +77,8 @@
       openOnSave:
         html: false
         pdf: true
+      saveToPDFOptions:
+        latexRenderer: "HTML-CSS"
     style: "github"
   "no-title-bar": {}
   "one-dark-ui":
