@@ -1,0 +1,15 @@
+name: symbols
+parent: default
+
+matches:
+  - trigger: ":because"
+    replace: "∵"
+
+  - trigger: ":therefore"
+    replace: "∴"
+
+  - trigger: ":rightarrow"
+    replace: "→"
+
+  - trigger: ":leftarrow"
+    replace: "←"

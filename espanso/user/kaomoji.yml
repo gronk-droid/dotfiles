@@ -1,0 +1,89 @@
+name: kaomoji
+parent: default
+
+matches:
+  - trigger: ":laugh"
+    replace: "(´つ^ヮ^⊂)"
+
+  - trigger: ":hide"
+    replace: "_◉)"
+
+  - trigger: ":sadrain"
+    replace: "、ヽ｀、ヽ｀个o( ಡ_ಡ)｀ヽ、｀ヽ、"
+
+  - trigger: ":rain"
+    replace: "、ヽ｀、ヽ｀个o(･_･｡)｀ヽ、｀ヽ、"
+
+  - trigger: ":success"
+    replace: "( ˘ ɜ˘) ♬♪♫"
+
+  - trigger: ":lennyarmy"
+    replace: "( ͡° ͜ʖ ( ͡° ͜ʖ ( ͡° ͜ʖ ( ͡° ͜ʖ ͡°) ͜ʖ ͡°)ʖ ͡°)"
+
+  - trigger: ":lenny"
+    replace: "( ͡° ͜ʖ ͡°)"
+
+  - trigger: ":mhm"
+    replace: "( ￢_￢)"
+
+  - trigger: ":tired"
+    replace: "( ⌒｡⌒)ƶƵ"
+
+  - trigger: ":wink"
+    replace: "( ◉ o⌒)"
+
+  - trigger: ":dealwithit"
+    replace: "( ◉_◉)
+  ( ◉_◉)>⌐■-■
+  (⌐■_■)"
+
+  - trigger: ":bird"
+    replace: "( ◉)⊃"
+
+  - trigger: ":disapprove"
+    replace: "( ಠ_ಠ)"
+
+  - trigger: ":sad"
+    replace: "( ಡ_ಡ)"
+
+  - trigger: ":sadmad"
+    replace: "( ಡ益ಡ)"
+
+  - trigger: ":facepalm"
+    replace: "(－‸ლ)"
+
+  - trigger: ":weeow"
+    replace: "(〜˘ ɜ˘)〜"
+
+  - trigger: ":music"
+    replace: "(˘ε˘ ง)♪"
+
+  - trigger: ":pig"
+    replace: "(ˆ(oo)ˆ)"
+
+  - trigger: ":whoops"
+    replace: "(⁄•⁄ω⁄•⁄)"
+
+  - trigger: ":peek"
+    replace: "(⊃‿⊂)"
+
+  - trigger: ":what"
+    replace: "(⊙_⊙)"
+
+  - trigger: ":cute"
+    replace: "(⌒‿⌒ʃƪ)"
+
+  - trigger: ":kiss"
+    replace: "(⌒ε⌒ʃƪ)"
+
+  - trigger: ":tableflip"
+    replace: "(╯ಠ益ಠ)╯︵ ┻━┻"
+
+  - trigger: ":mlerm"
+    replace: "(◉ ڡ ◉)"
+
+  - trigger: ":ahh"
+    replace: "(◉ ᗜ ◉)"
+
+  - trigger: ":happy"
+    replace: "(◉‿◉)"
