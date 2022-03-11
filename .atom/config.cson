@@ -24,6 +24,12 @@
     ]
   "atom-python-virtualenv":
     getWorkOnHome: "$HOME/.virtualenvs;"
+  "auto-close-html2":
+    enabledFileTypes: [
+      "html"
+      "markdown"
+      "md"
+    ]
   "autocomplete-python": {}
   "bracket-colorizer":
     brackets: [
@@ -38,23 +44,21 @@
     borderStyle: "bottom"
   core:
     disabledPackages: [
-      "python-tools"
-      "script"
       "markdown-preview"
       "language-gfm"
+      "auto-close-html2"
+      "bracket-colorizer"
     ]
-    packagesWithKeymapsDisabled: []
     telemetryConsent: "limited"
     themes: [
       "atom-material-ui"
-      "monokai"
+      "pen-paper-coffee-syntax"
     ]
     titleBar: "hidden"
   "custom-title":
     template: "<%= fileName %><% if (projectPath) { %> - <%= projectPath %><% if (gitHead) { %> [<%= gitHead %>]<% } %><% } %>"
   editor:
-    fontFamily: "Fira Code NF, Menlo, Consolas, DejaVu Sans Mono, monospace"
-    fontSize: 17
+    fontFamily: "Iosevka, Menlo, Consolas, DejaVu Sans Mono, monospace"
     softWrap: true
     tabLength: 4
   "exception-reporting":
@@ -65,12 +69,22 @@
   gist: {}
   "gist-it":
     newGistsDefaultToPrivate: true
+  "git-diff":
+    showIconsInEditorGutter: true
   github: {}
   "ide-python": {}
   kite:
     showWelcomeNotificationOnStartup: false
   "linter-ui-default":
     useBusySignal: false
+  "markdown-preview-enhanced":
+    codeBlockTheme: "default.css"
+    frontMatterRenderingOption: "table"
+    mathRenderingOnlineService: "https://latex.codecogs.com/svg.latex"
+    openPreviewPaneAutomatically: false
+    printBackground: true
+    revealjsTheme: "simple.css"
+    usePuppeteerCore: false
   "markdown-preview-plus":
     renderer: "pandoc"
     saveConfig:
@@ -126,7 +140,7 @@
     autoCheckForUpdatedBackup: "no"
     gistId: "fd35d81711ecf6cc4eb7ac5c85d371dc"
     hiddenSettings:
-      _lastBackupTime: "2022-02-24T01:52:00Z"
+      _lastBackupTime: "2022-03-07T03:42:28Z"
     personalAccessToken: "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"
     removeObsoletePackages: true
     useGistProxy: false
@@ -157,3 +171,6 @@
 ".css.less.source":
   editor:
     showIndentGuide: false
+".md.text":
+  editor:
+    showIndentGuide: true

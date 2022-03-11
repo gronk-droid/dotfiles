@@ -14,8 +14,17 @@ matches:
   - trigger: ":leftarrow"
     replace: "←"
 
-  - trigger: ":member"
+  - trigger: ":in"
     replace: "∈"
+
+  - trigger: ":implies"
+    replace: "⟹"
+
+  - trigger: ":exists"
+    replace: "∃"
+
+  - trigger: ":forall"
+    replace: "∀"
 
   - trigger: ":lambda"
     replace: "λ"
@@ -27,7 +36,7 @@ matches:
     replace: "Σ"
 
   - trigger: ":delta"
-    replace: "𝛿"
+    replace: "δ"
 
   - trigger: ":upperdelta"
     replace: "Δ"
@@ -37,3 +46,12 @@ matches:
 
   - trigger: ":equiv"
     replace: "≡"
+
+  - trigger: ":star"
+    replace: ""
+
+  - trigger: ":resistance"
+    replace: ""
+
+  - trigger: ":empire"
+    replace: ""
