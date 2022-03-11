@@ -7,5 +7,7 @@
 /.atom/packages/
 /.atom/storage/
 
-.atom/kite-config.json
-.atom/config.cson
+/.atom/config.cson
+/.atom/styles.less
+/.atom/packages.cson
+/.atom/kite-config.json
