@@ -1,0 +1,39 @@
+name: symbols
+parent: default
+
+matches:
+  - trigger: ":because"
+    replace: "∵"
+
+  - trigger: ":therefore"
+    replace: "∴"
+
+  - trigger: ":rightarrow"
+    replace: "→"
+
+  - trigger: ":leftarrow"
+    replace: "←"
+
+  - trigger: ":member"
+    replace: "∈"
+
+  - trigger: ":lambda"
+    replace: "λ"
+
+  - trigger: ":sigma"
+    replace: "σ"
+
+  - trigger: ":uppersigma"
+    replace: "Σ"
+
+  - trigger: ":delta"
+    replace: "𝛿"
+
+  - trigger: ":upperdelta"
+    replace: "Δ"
+
+  - trigger: ":naturalnum"
+    replace: "ℕ"
+
+  - trigger: ":equiv"
+    replace: "≡"
