@@ -10,9 +10,8 @@ module.exports = {
     //   `@company/project`
     //   `project#1.0.1`
     plugins: [
-        'hyper-monokai',
-        'hyper-font-ligatures'
-        // 'hyper-monokai-deluxe'
+        'hyper-font-ligatures',
+        'hyper-solarized-light'
     ],
     // in development, you can create a directory under
     // `~/.hyper_plugins/local/` and include it here
@@ -29,7 +28,7 @@ module.exports = {
         // default font size in pixels for all tabs
         fontSize: 18,
         // font family with optional fallbacks
-        fontFamily: '"Iosevka NF", Menlo, "DejaVu Sans Mono", Consolas, "Lucida Console", monospace',
+        fontFamily: 'Iosevka, Menlo, "DejaVu Sans Mono", Consolas, "Lucida Console", monospace',
         // default font weight: 'normal' or 'bold'
         fontWeight: 'normal',
         // font weight for bold characters: 'normal' or 'bold'
@@ -111,7 +110,7 @@ module.exports = {
         //
         // Cygwin
         // - Example: `C:\\cygwin64\\bin\\bash.exe`
-        shell: '/usr/local/bin/fish',
+        shell: 'C:\\Windows\\System32\\wsl.exe',
         // for setting shell arguments (i.e. for using interactive shellArgs: `['-i']`)
         // by default `['--login']` will be used
         shellArgs: [],
