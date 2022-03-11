@@ -37,12 +37,14 @@
     borderSize: 2
     borderStyle: "bottom"
   core:
+    disabledPackages: [
+      "language-gfm"
+    ]
     telemetryConsent: "limited"
     themes: [
       "atom-material-ui"
       "atom-monokai"
     ]
-    titleBar: "custom-inset"
   editor:
     fontFamily: "Fira Code NF, Menlo, Consolas, DejaVu Sans Mono, monospace"
     fontSize: 17
