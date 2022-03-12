@@ -9,7 +9,7 @@
   "atom-material-ui":
     colors:
       abaseColor: "#eeeede"
-      accentColor: "#eeeede"
+      accentColor: "#ececf9"
       genAccent: true
     fonts: {}
     tabs:
@@ -54,9 +54,6 @@
       "atom-material-ui"
       "pen-paper-coffee-syntax"
     ]
-    titleBar: "hidden"
-  "custom-title":
-    template: "<%= fileName %><% if (projectPath) { %> - <%= projectPath %><% if (gitHead) { %> [<%= gitHead %>]<% } %><% } %>"
   editor:
     fontFamily: "Iosevka, Menlo, Consolas, DejaVu Sans Mono, monospace"
     softWrap: true
@@ -97,49 +94,9 @@
     style: "github"
   "markdown-writer":
     tableAlignment: "center"
-  "no-title-bar": {}
-  "one-dark-ui":
-    tabSizing: "Maximum"
-  "pandoc-pdf":
-    pandocPdfEngine: "wkhtmltopdf"
-  "pdf-view-plus":
-    closeViewWhenFileDeleted: true
-  pigments:
-    autocompleteScopes: [
-      ".source.css"
-      ".source.css.less"
-      ".source.sass"
-      ".source.css.scss"
-      ".source.stylus"
-      ".css"
-      ".fish"
-    ]
-    autocompleteSuggestionsFromValue: true
-    filetypesForColorWords: [
-      "css"
-      "less"
-      "styl"
-      "stylus"
-      "sass"
-      "scss"
-      "fish"
-    ]
-    sourceNames: [
-      "**/*.css"
-      "**/*.styl"
-      "**/*.stylus"
-      "**/*.less"
-      "**/*.sass"
-      "**/*.scss"
-      "**/*.fish"
-    ]
-    traverseIntoSymlinkDirectories: true
-  "python-tools":
-    pythonPath: "/usr/local/Cellar/python@3.9/3.9.10/bin"
-  "sync-settings":
-    autoCheckForUpdatedBackup: "no"
-    gistId: "fd35d81711ecf6cc4eb7ac5c85d371dc"
-    hiddenSettings:
+=======
+
+
       _lastBackupTime: "2022-03-07T03:42:28Z"
     personalAccessToken: "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"
     removeObsoletePackages: true
@@ -152,14 +109,9 @@
       autoClose: true
   "title-bar-replacer":
     colors:
-      autoSelectColor: false
-      baseColor: "#eeeede"
-      controlTheme: "Arc"
-      highlightColor: "#656660"
-      textColor: "#2d2a2e"
-    general:
-      altGivesFocus: false
-      displayMenuBar: false
+      controlTheme: "Yosemite"
+      style: "Spacious"
+    general: {}
   "tool-bar":
     position: "Left"
   welcome:
