@@ -44,6 +44,9 @@ matches:
   - trigger: ":naturalnum"
     replace: "ℕ"
 
+  - trigger: ":realnum"
+    replace: "ℝ"
+
   - trigger: ":equiv"
     replace: "≡"
 
