@@ -11,7 +11,6 @@ set tacklebox_path ~/.tackle ~/.tacklebox
 
 # Welcome message
 function fish_greeting
-  # fortune -s
   _logo
 end
 funcsave fish_greeting
@@ -20,13 +19,11 @@ funcsave fish_greeting
 alias vtop "vtop --theme monokai"
 funcsave vtop
 
-# exa function
+# map ls to exa function
 alias ls "exa --icons -a"
 funcsave ls
 
-alias finder "open ."
-funcsave finder
-
+# adding pipes-rs command for pipes
 alias pipes "pipes-rs"
 funcsave pipes
 
