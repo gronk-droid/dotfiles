@@ -10,39 +10,39 @@ toggle_key: OFF
 
 # Matches are the substitution rules, when you type the "trigger" string
 # it gets replaced by the "replace" string.
-matches:
-  # Simple text replacement
-  - trigger: ":espanso"
-    replace: "Hi there!"
-
-  # # Dates
-  # - trigger: ":date"
-  #   replace: "{{mydate}}"
-  #   vars:
-  #     - name: mydate
-  #       type: date
-  #       params:
-  #         format: "%Y-%m-%d"
-  # - trigger: ":time"
-  #   replace: "{{mydate}}"
-  #   vars:
-  #     - name: mydate
-  #       type: date
-  #       params:
-  #         format: "%H:%M:%S"
-  # - trigger: ":dtime"
-  #   replace: "{{mydate}}"
-  #   vars:
-  #     - name: mydate
-  #       type: date
-  #       params:
-  #         format: "%Y-%m-%d %H:%M:%S"
-  #
-  # # Shell commands
-  # - trigger: ":shell"
-  #   replace: "{{output}}"
-  #   vars:
-  #     - name: output
-  #       type: shell
-  #       params:
-  #         cmd: "echo Hello from your shell"
+# matches:
+#   # Simple text replacement
+#   - trigger: ":espanso"
+#     replace: "Hi there!"
+#
+#   # Dates
+#   - trigger: ":date"
+#     replace: "{{mydate}}"
+#     vars:
+#       - name: mydate
+#         type: date
+#         params:
+#           format: "%Y-%m-%d"
+#   - trigger: ":time"
+#     replace: "{{mydate}}"
+#     vars:
+#       - name: mydate
+#         type: date
+#         params:
+#           format: "%H:%M:%S"
+#   - trigger: ":dtime"
+#     replace: "{{mydate}}"
+#     vars:
+#       - name: mydate
+#         type: date
+#         params:
+#           format: "%Y-%m-%d %H:%M:%S"
+#
+#   # Shell commands
+#   - trigger: ":shell"
+#     replace: "{{output}}"
+#     vars:
+#       - name: output
+#         type: shell
+#         params:
+#           cmd: "echo Hello from your shell"
