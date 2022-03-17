@@ -8,3 +8,4 @@
 /.atom/storage/
 
 /.atom/kite-config.json
+/.atom/config.cson
