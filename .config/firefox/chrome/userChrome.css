@@ -175,7 +175,7 @@ html[data-theme='dark-pro'] {
      /* tracking protection shield icon */
      #tracking-protection-icon-container { display: none !important; }
 
-     /* #identity-box { display: none !important } /* hides encryption AND permission items */
+     #identity-box { display: none !important } /* hides encryption AND permission items
      #identity-permission-box { display: none !important; } /* only hodes permission items */
 
      /* e.g. playing indicator (secondary - not icon) */
@@ -216,8 +216,8 @@ html[data-theme='dark-pro'] {
      --tab-block-margin: 2px !important;
 
  }
-/*#nav-bar*/
-/*#TabsToolbar,*/
+/* #nav-bar,
+#TabsToolbar, */
 #window,
 #toolbar-menubar,
 #PersonalToolbar,
@@ -293,7 +293,7 @@ html[data-theme='dark-pro'] {
 }
 
 #main-window{
-  border-left: 0px;
+  border-left: none !important;
 }
 
 /* grey out ccons inside the toolbar to make it
@@ -308,9 +308,6 @@ html[data-theme='dark-pro'] {
 
 /* remove "padding" left and right from tabs */
 .titlebar-spacer { display: none !important; }
-
-
-
 
 
 /* remove gap after pinned tabs */
@@ -509,16 +506,16 @@ html[data-theme='dark-pro'] {
 
 
     /* move tabs bar over */
-    /* margin-left: var(--uc-urlbar-width) !important; */
+    margin-left: var(--uc-urlbar-width) !important;
     #TabsToolbar { margin-left: 0;}
 
 
     /* move entire nav bar  */
     #nav-bar {
       margin-top: calc((var(--urlbar-min-height) * -1) - 8px) !important;
-      margin-right:  calc(100vw - var(--uc-urlbar-width)) !important;
+      margin-right:  calc(75vw - var(--uc-urlbar-width)) !important;
       margin-bottom: 0 !important;
-      margin-left: 80px !important;
+      margin-left: 0 !important;
 
     }
 
