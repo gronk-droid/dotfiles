@@ -41,6 +41,9 @@ matches:
   - trigger: ":upperdelta"
     replace: "Δ"
 
+  - trigger: ":mu"
+    replace: "μ"
+
   - trigger: ":naturalnum"
     replace: "ℕ"
 
