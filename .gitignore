@@ -2,4 +2,7 @@
 *.token
 
 # Atom sync
-.atom/
+/.atom/config.cson
+/.atom/blob-store/
+/.atom/packages/
+/.atom/recovery/
