@@ -2,11 +2,20 @@ name: kaomoji
 parent: default
 
 matches:
+  - trigger: ":adventuretime"
+    replace: "| (• ◡•)| (❍ᴥ❍ʋ)"
+
   - trigger: ":ahh"
     replace: "(◉ ᗜ ◉)"
 
-  - trigger: ":bed"
-    replace: "[][▓▓]"
+  - trigger: ":armylenny"
+    replace: "( ͡° ͜ʖ ( ͡° ͜ʖ ( ͡° ͜ʖ ( ͡° ͜ʖ ͡°) ͜ʖ ͡°)ʖ ͡°)"
+
+  - trigger: ":armyslime"
+    replace: "༼ ºل͟º ༼ ºل͟º ༼ ºل͟º ༽ ºل͟º ༽ ºل͟º ༽"
+
+  - trigger: ":awave"
+    replace: "(◉‿◉)ﾉ"
 
   - trigger: ":belmont"
     replace: "❀=========≡눈٩(`皿´҂)ง"
@@ -23,14 +32,11 @@ matches:
   - trigger: ":controller"
     replace: "[+..••]"
 
-  - trigger: ":curious"
-    replace: "^•ᴥ•^"
-
   - trigger: ":cute"
     replace: "(⌒‿⌒ʃƪ)"
 
   - trigger: ":dealwithit"
-    replace: "( ◉_◉)( ◉_◉)>⌐■-■(⌐■_■)"
+    replace: "( ◉_◉)( ◉_◉)>⌐■-■( ⌐■-■)"
 
   - trigger: ":deuces"
     replace: "✌︎(◉ω◉)✌︎"
@@ -43,9 +49,6 @@ matches:
 
   - trigger: ":dream"
     replace: "｡･*･:≡(:3 ) =͟͟͞͞ (¦3[▓▓]"
-
-  - trigger: ":eye"
-    replace: "◉"
 
   - trigger: ":facepalm"
     replace: "(－‸ლ)"
@@ -63,7 +66,7 @@ matches:
     replace: "(◉‿◉)"
 
   - trigger: ":hide"
-    replace: "_◉)"
+    replace: "|_◉)"
 
   - trigger: ":hug"
     replace: "⊂(◉‿◉)⊃"
@@ -83,14 +86,8 @@ matches:
   - trigger: ":lenny"
     replace: "( ͡° ͜ʖ ͡°)"
 
-  - trigger: ":lennyarmy"
-    replace: "( ͡° ͜ʖ ( ͡° ͜ʖ ( ͡° ͜ʖ ( ͡° ͜ʖ ͡°) ͜ʖ ͡°)ʖ ͡°)"
-
-  - trigger: ":mad"
+  - trigger: ":madd"
     replace: "୧(ಠ益ಠ)୨"
-
-  - trigger: ":madpunch"
-    replace: "(งಠ益ಠ)ง"
 
   - trigger: ":mhm"
     replace: "( ￢_￢)"
@@ -101,7 +98,7 @@ matches:
   - trigger: ":music"
     replace: "(˘ε˘ ง)♪"
 
-  - trigger: ":peace"
+  - trigger: ":peacee"
     replace: "✌︎(◉‿◉)"
 
   - trigger: ":peaceout"
@@ -113,10 +110,16 @@ matches:
   - trigger: ":pig"
     replace: "(ˆ(oo)ˆ)"
 
-  - trigger: ":punch"
+  - trigger: ":punchh"
     replace: "(ง •̀_•́)ง"
 
-  - trigger: ":pupper"
+  - trigger: ":punchmad"
+    replace: "(งಠ益ಠ)ง"
+
+  - trigger: ":puppercurious"
+    replace: "^•ᴥ•^"
+
+  - trigger: ":pupperr"
     replace: "•ᴥ•"
 
   - trigger: ":rain"
@@ -125,7 +128,7 @@ matches:
   - trigger: ":run"
     replace: "ε=ε=ε=ε=┌( ◉_◉)┘"
 
-  - trigger: ":sad"
+  - trigger: ":sadd"
     replace: "( ಡ_ಡ)"
 
   - trigger: ":sadmad"
@@ -135,13 +138,13 @@ matches:
     replace: "、ヽ｀、ヽ｀个o( ಡ_ಡ)｀ヽ、｀ヽ、"
 
   - trigger: ":sadspider"
-    replace: "/╲/\\( ಡಡ_ಡಡ )/\\╱\\"
+    replace: "/╲/\( ಡಡ_ಡಡ )/\╱\ "
 
   - trigger: ":sexytime"
     replace: "∠( ᐛ 」∠)＿"
 
   - trigger: ":shrug"
-    replace: "¯\\(◉‿◉)/¯"
+    replace: "¯\(◉‿◉)/¯"
 
   - trigger: ":sleep"
     replace: "(¦ꒉ[▓▓]"
@@ -149,14 +152,11 @@ matches:
   - trigger: ":slime"
     replace: "༼つಠ益ಠ༽つ ─=≡ΣO))"
 
-  - trigger: ":slimearmy"
-    replace: "༼ ºل͟º ༼ ºل͟º ༼ ºل͟º ༽ ºل͟º ༽ ºل͟º ༽"
-
   - trigger: ":sparkle"
     replace: "(ﾉ◕ヮ◕)ﾉ*:･ﾟ✧"
 
   - trigger: ":spider"
-    replace: "/╲/\\( ••̀ ω ••́ )/\\╱\\"
+    replace: "/╲/\( ••̀ ω ••́ )/\╱\"
 
   - trigger: ":success"
     replace: "(   •̀ᴗ•́)و"
@@ -173,9 +173,6 @@ matches:
   - trigger: ":that"
     replace: "(☞ ◉ヮ◉)☞"
 
-  - trigger: ":thelook"
-    replace: "ಠ"
-
   - trigger: ":this"
     replace: "☜(◉ヮ◉ ☜)"
 
@@ -187,12 +184,6 @@ matches:
 
   - trigger: ":wake"
     replace: "(:3 っ)3≡･◦∴*+◦º.+*.•。[][▓▓]"
-
-  - trigger: ":wave"
-    replace: "(◉‿◉)ﾉ"
-
-  - trigger: ":waves"
-    replace: "°º¤ø,¸¸,ø¤º°`°º¤ø,¸,ø¤°º¤ø,¸¸,ø¤º°`°º¤ø,¸"
 
   - trigger: ":weeow"
     replace: "(〜˘ ɜ˘)〜"
@@ -214,6 +205,3 @@ matches:
 
   - trigger: ":yuno"
     replace: "ლ( ಠ益ಠ)ლ"
-
-  - trigger: "pilcrow"
-    replace: "¶"
