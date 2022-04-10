@@ -11,3 +11,6 @@ matches:
 
   - trigger: ":latexaligned"
     replace: "$$\n\\begin{aligned}\n\\end{aligned}\n$$"
+
+  - trigger: ":divtextcenter"
+    replace: "<div style=\"text-align: center;\"></div>"
