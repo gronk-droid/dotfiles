@@ -52,7 +52,7 @@ button {
     --accent-alt: 255 160 160;      /* #ffa0a0 → rgb(255, 160, 160)     original: rgb(29, 101, 134) */
     --black: 45, 42, 46;            /* #2d2a2e → rgb(45, 42, 46)        original: rgb(0, 0, 0)      */
     --white: 253, 255, 241;         /* #FDFFF1 → rgb(253, 255, 241)     original: rgb(255, 255, 255)*/
-    --background-solid: var(--forty-color);
+    --background-solid: var(--zero-color);
     --background-solid-dark: var(--twenty-color);
     --background-solid-darker: var(--zero-color);
 
@@ -75,7 +75,7 @@ button {
     --background-secondary: var(--background-solid);
     --background-accent: var(--background-solid);
     --background-message-hover: rgba(var(--twenty-color), 1);
-    --channeltextarea-background: var(--forty-color);
+    --channeltextarea-background: var(--twenty-color);
     --activity-card-background: rgba(var(--white), 0.05);
     --deprecated-store-bg: transparent;
     --background-modifier-hover: rgba(var(--twenty-color), 1);
@@ -580,7 +580,7 @@ div[class*="errorPage"] {
 
 div[class^="tooltip-"] {
 	--background-floating: rgba(var(--accent-alt), 1);
-	--text-normal: #e0e0e0;
+	--text-normal: var(--font-color);
 }
 
 
