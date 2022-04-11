@@ -101,7 +101,7 @@ matches:
   - trigger: ":peacee"
     replace: "✌︎(◉‿◉)"
 
-  - trigger: ":peaceout"
+  - trigger: ":peaceout"z
     replace: "✌︎(  •̀益•́ )✌︎"
 
   - trigger: ":peek"
@@ -138,13 +138,13 @@ matches:
     replace: "、ヽ｀、ヽ｀个o( ಡ_ಡ)｀ヽ、｀ヽ、"
 
   - trigger: ":sadspider"
-    replace: "/╲/\( ಡಡ_ಡಡ )/\╱\ "
+    replace: "/╲/\\( ಡಡ_ಡಡ )/\\╱\\"
 
   - trigger: ":sexytime"
     replace: "∠( ᐛ 」∠)＿"
 
   - trigger: ":shrug"
-    replace: "¯\(◉‿◉)/¯"
+    replace: "¯\\(◉‿◉)/¯"
 
   - trigger: ":sleep"
     replace: "(¦ꒉ[▓▓]"
@@ -156,7 +156,7 @@ matches:
     replace: "(ﾉ◕ヮ◕)ﾉ*:･ﾟ✧"
 
   - trigger: ":spider"
-    replace: "/╲/\( ••̀ ω ••́ )/\╱\"
+    replace: "/╲/\\( ••̀ ω ••́ )/\\╱\\"
 
   - trigger: ":success"
     replace: "(   •̀ᴗ•́)و"
