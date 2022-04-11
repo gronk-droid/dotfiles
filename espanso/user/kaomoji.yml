@@ -101,7 +101,7 @@ matches:
   - trigger: ":peacee"
     replace: "✌︎(◉‿◉)"
 
-  - trigger: ":peaceout"z
+  - trigger: ":peaceout"
     replace: "✌︎(  •̀益•́ )✌︎"
 
   - trigger: ":peek"
