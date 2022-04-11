@@ -7,4 +7,10 @@ matches:
 
   - trigger: ":divcenter"
     replace: "<div class=\"center\">
-              \n\n</div>"
+              \n\n\n</div>"
+
+  - trigger: ":latexaligned"
+    replace: "$$\n\\begin{aligned}\n\\end{aligned}\n$$"
+
+  - trigger: ":divtextcenter"
+    replace: "<div style=\"text-align: center;\">\n\n\n</div>"
