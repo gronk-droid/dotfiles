@@ -11,7 +11,6 @@ set tacklebox_path ~/.tackle ~/.tacklebox
 
 # Welcome message
 function fish_greeting
-  # fortune -s
   _logo
 end
 funcsave fish_greeting
@@ -21,7 +20,7 @@ alias vtop "vtop --theme monokai"
 funcsave vtop
 
 # exa function
-alias ls "exa --icons"
+alias ls "exa --icons -a"
 funcsave ls
 
 alias finder "open ."
@@ -29,6 +28,9 @@ funcsave finder
 
 alias pipes "pipes-rs"
 funcsave pipes
+
+alias c "pygmentize -g -O style=colorful,linenos=1"
+funcsave c
 
 set -Ux GITHUB_TOKEN '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'
 set -Ux GIST_ID 'fd35d81711ecf6cc4eb7ac5c85d371dc'
