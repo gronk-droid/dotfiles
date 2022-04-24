@@ -10,9 +10,8 @@ module.exports = {
     //   `@company/project`
     //   `project#1.0.1`
     plugins: [
-        'hyper-monokai',
+        'hyper-solarized-light',
         'hyper-font-ligatures'
-        // 'hyper-monokai-deluxe'
     ],
     // in development, you can create a directory under
     // `~/.hyper_plugins/local/` and include it here
