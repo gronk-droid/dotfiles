@@ -7,21 +7,7 @@ sketchybar --set ${NAME} icon.color=0xff2d2a2e
 
 if [[ ${CHARGING} != "" ]]; then
     sketchybar --set ${NAME} label="${BATT_PERCENT}%"
-    sleep .5
-    sketchybar --set ${NAME} icon=""
-    sleep .5
-    sketchybar --set ${NAME} icon=""
-    sleep .5
-    sketchybar --set ${NAME} icon=""
-    sleep .5
-    sketchybar --set ${NAME} icon=""
-    sleep .5
-    sketchybar --set ${NAME} icon=""
-    sleep .5
-    sketchybar --set ${NAME} icon=""
-    sleep .5
     sketchybar --set ${NAME} icon=""
-    exit 0
 fi
 
 
