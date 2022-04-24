@@ -3,6 +3,7 @@
 sketchybar --add       item               calendar.time center                          \
            --set       calendar.time      update_freq=2                                 \
                                           icon.drawing=off                              \
+                                          position=center                               \
                                           script="$PLUGIN_DIR/time.sh"                  \
                                                                                         \
            --clone     calendar.date      label_template                                \
@@ -14,8 +15,6 @@ sketchybar --add       item               calendar.time center                  
                                           script="$PLUGIN_DIR/date.sh"                  \
                                                                                         \
            --add       bracket            calendar                                      \
-                                          mailIndicator                                 \
-                                          MeetingBar                                    \
                                           calendar.time                                 \
                                           calendar.date                                 \
                                                                                         \
