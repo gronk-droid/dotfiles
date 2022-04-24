@@ -27,7 +27,7 @@ POPUP_CORNER_RADIUS=4
 sketchybar --bar                height=32                                                         \
                                 corner_radius=5                                                   \
                                 border_width=0                                                    \
-                                margin=0                                                          \
+                                margin=20                                                         \
                                 blur_radius=0                                                     \
                                 position=top                                                      \
                                 padding_left=5                                                    \
@@ -40,7 +40,7 @@ sketchybar --bar                height=32                                       
                                                                                                   \
            --default            drawing=on                                                        \
                                 lazy=off                                                          \
-                                updates=when_shown                                                \
+                                updates=on                                                        \
                                 cache_scripts=on                                                  \
                                 label.font="$FONT:Bold Italic:17.0"                               \
                                 icon.font="$FONT:Regular:25.0"                                    \
