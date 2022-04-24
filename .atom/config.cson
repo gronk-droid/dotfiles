@@ -18,13 +18,18 @@
       tintedTabBar: true
     ui:
       panelContrast: true
-  "atom-python-run":
-    terminal: [
-      "hyper"
-    ]
+  "atom-python-run": {}
   "atom-python-virtualenv":
-    getWorkOnHome: "$HOME/.virtualenvs;"
-  "autocomplete-python": {}
+    getWorkOnHome: "\\\\wsl.localhost\\Arch\\home\\gronk-droid\\.virtualenvs"
+  "auto-close-html2":
+    enabledFileTypes: [
+      "html"
+      "markdown"
+      "md"
+    ]
+  "autocomplete-python":
+    useKite: false
+  "autocomplete-python-jedi": {}
   "bracket-colorizer":
     brackets: [
       "{}"
@@ -38,22 +43,19 @@
     borderStyle: "bottom"
   core:
     disabledPackages: [
-      "python-tools"
-      "script"
       "markdown-preview"
       "language-gfm"
     ]
-    packagesWithKeymapsDisabled: []
     telemetryConsent: "limited"
     themes: [
       "atom-material-ui"
-      "monokai"
+      "pen-paper-coffee-syntax"
     ]
     titleBar: "hidden"
   "custom-title":
     template: "<%= fileName %><% if (projectPath) { %> - <%= projectPath %><% if (gitHead) { %> [<%= gitHead %>]<% } %><% } %>"
   editor:
-    fontFamily: "Fira Code NF, Menlo, Consolas, DejaVu Sans Mono, monospace"
+    fontFamily: "Iosevka, Menlo, Consolas, DejaVu Sans Mono, monospace"
     softWrap: true
     tabLength: 4
   "exception-reporting":
@@ -64,36 +66,49 @@
   gist: {}
   "gist-it":
     newGistsDefaultToPrivate: true
-  "git-plus":
-    general:
-      splitPane: "Right"
+  "git-diff":
+    showIconsInEditorGutter: true
   github: {}
-  "ide-python": {}
+  "ide-python":
+    pyls: "\\\\wsl.localhost\\Arch\\usr\\bin\\pylsp"
+    python: "\\\\wsl.localhost\\Arch\\usr\\bin\\python3.10"
   kite:
     showWelcomeNotificationOnStartup: false
+  linter: {}
+  "linter-gcc":
+    gccLintOnTheFly: true
+  "linter-python":
+    enableDebug: true
+    executablePath: "\\\\wsl.localhost\\Arch\\home\\gronk-droid\\.local\\bin\\pylama"
+    withPyflakes: true
   "linter-ui-default":
-    showPanel: true
+    panelHeight: 590
     useBusySignal: false
-  "markdown-pdf": {}
+  "markdown-preview-enhanced":
+    codeBlockTheme: "default.css"
+    frontMatterRenderingOption: "table"
+    mathRenderingOnlineService: "https://latex.codecogs.com/svg.latex"
+    openPreviewPaneAutomatically: false
+    printBackground: true
+    revealjsTheme: "simple.css"
+    usePuppeteerCore: false
   "markdown-preview-plus":
-    mathConfig:
-      enableLatexRenderingByDefault: true
-      latexRenderer: "HTML-CSS"
     renderer: "pandoc"
     saveConfig:
       defaultSaveFormat: "pdf"
       makePDFOverwrite: true
       openOnSave:
-        html: false
         pdf: true
       saveToPDFOptions:
         latexRenderer: "HTML-CSS"
     style: "github"
   "markdown-writer":
+    fileExtension: ".markdown, .md"
     tableAlignment: "center"
   "no-title-bar": {}
   "one-dark-ui":
     tabSizing: "Maximum"
+  "open-terminal-here": {}
   "package-sync":
     createOnChange: true
     forceOverwrite: true
@@ -131,15 +146,22 @@
       "**/*.fish"
     ]
     traverseIntoSymlinkDirectories: true
-  "python-tools":
-    pythonPath: "/usr/local/Cellar/python@3.9/3.9.10/bin"
+  "python-linters":
+    lintTrigger:
+      mypy: "LintAsYouType"
+      pydocstyle: "LintOnFileSave"
+    path: {}
+  "python-tools": {}
+  "status-bar": {}
   "sync-settings":
-    autoCheckForUpdatedBackup: "no"
-    gistId: "fd35d81711ecf6cc4eb7ac5c85d371dc"
+    autoCheckForUpdatedBackup: "backup"
+    gistDescription: "Backup of atom from MacOS."
+    gistId: "a01f68d755b2b8065667366c20fa085d"
     hiddenSettings:
-      _lastBackupTime: "2022-03-06T05:14:50Z"
-    personalAccessToken: "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"
-    removeObsoletePackages: true
+      _lastBackupTime: "2022-04-24T17:56:08Z"
+    installLatestVersion: true
+    personalAccessToken: "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"
+    quietUpdateCheck: true
     useGistProxy: false
   "terminal-plus":
     core:
@@ -147,6 +169,42 @@
       workingDirectory: "Active File"
     toggles:
       autoClose: true
+  terminus:
+    ansiColors:
+      normal:
+        black: "#839496"
+        blue: "#268bd2"
+        cyan: "#2aa198"
+        green: "#859900"
+        magenta: "#6c71c4"
+        red: "#dc322f"
+        white: "#fdf6e3"
+        yellow: "#b58900"
+      zBright:
+        brightBlack: "#839496"
+        brightBlue: "#268bd2"
+        brightCyan: "#2aa198"
+        brightGreen: "#859900"
+        brightMagenta: "#6c71c4"
+        brightRed: "#dc322f"
+        brightWhite: "#fdf6e3"
+        brightYellow: "#b58900"
+    core:
+      shell: "C:\\\\Windows\\\\System32\\\\wsl.exe"
+    iconColors:
+      blue: "#268bd2"
+      cyan: "#2aa198"
+      green: "#859900"
+      magenta: "#6c71c4"
+      orange: "#839496"
+      pink: "#657b83"
+      purple: "#586e75"
+      red: "#dc322f"
+      yellow: "#b58900"
+    style:
+      fontFamily: "Iosevka"
+      fontSize: "18"
+      theme: "solarized-light"
   "title-bar-replacer":
     colors:
       autoSelectColor: false
@@ -168,3 +226,6 @@
 ".css.less.source":
   editor:
     showIndentGuide: false
+".md.text":
+  editor:
+    showIndentGuide: true
