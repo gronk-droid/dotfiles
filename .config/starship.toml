@@ -1,1 +1,3 @@
 # ~/.config/starship.toml
+[git_status]
+windows_starship = '/mnt/c/Users/gronk-droid/scoop/apps/starship/current/starship.exe'
