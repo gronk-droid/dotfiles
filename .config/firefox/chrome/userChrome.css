@@ -184,7 +184,7 @@ html[data-theme='dark-pro'] {
      #pageActionButton { display: none !important; }
      #page-action-buttons { display: none !important; }
 
-     #urlbar-go-button { display: none !important; }
+     /* #urlbar-go-button { display: none !important; } */
 
 /*=============================================================================================*/
 
@@ -303,7 +303,7 @@ html[data-theme='dark-pro'] {
 
 
 /* remove window control buttons */
-/* .titlebar-buttonbox-container { display: none !important; } */
+.titlebar-buttonbox-container { display: none !important; }
 
 
 /* remove "padding" left and right from tabs */
