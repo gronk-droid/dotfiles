@@ -4,7 +4,7 @@ SETUVAR --export DEVKITPRO:/opt/devkitpro
 SETUVAR --export GIST_ID:fd35d81711ecf6cc4eb7ac5c85d371dc
 SETUVAR --export GITHUB_TOKEN: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
 SETUVAR --export PYTHON_EXE:/usr/local/bin/python3
-SETUVAR __fish_initialized:3100
+SETUVAR __fish_initialized:3400
 SETUVAR fish_color_autosuggestion:555\x1ebrblack
 SETUVAR fish_color_cancel:\x2dr
 SETUVAR fish_color_command:F92672
@@ -32,4 +32,5 @@ SETUVAR fish_pager_color_completion:75715E
 SETUVAR fish_pager_color_description:49483E
 SETUVAR fish_pager_color_prefix:F8F8F2
 SETUVAR fish_pager_color_progress:F8F8F2
+SETUVAR fish_pager_color_selected_background:\x2dr
 SETUVAR fish_user_paths:/usr/local/bin\x1e/usr/local/sbin
