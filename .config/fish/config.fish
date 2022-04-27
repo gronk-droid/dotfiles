@@ -10,27 +10,27 @@ set tacklebox_path ~/.tackle ~/.tacklebox
 # set tacklebox_theme entropy
 
 # Welcome message
-function fish_greeting
-  _logo
-end
-funcsave fish_greeting
-
-# vtop function
-alias vtop "vtop --theme monokai"
-funcsave vtop
-
-# exa function
-alias ls "exa --icons -a"
-funcsave ls
-
-alias finder "open ."
-funcsave finder
-
-alias pipes "pipes-rs"
-funcsave pipes
-
-alias c "pygmentize -g -O style=colorful,linenos=1"
-funcsave c
+# function fish_greeting
+#   _logo
+# end
+# funcsave fish_greeting
+#
+# # vtop function
+# alias vtop "vtop --theme monokai"
+# funcsave vtop
+#
+# # exa function
+# alias ls "exa --icons -a"
+# funcsave ls
+#
+# alias finder "open ."
+# funcsave finder
+#
+# alias pipes "pipes-rs"
+# funcsave pipes
+#
+# alias c "pygmentize -g -O style=colorful,linenos=1"
+# funcsave c
 
 set -Ux GITHUB_TOKEN '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'
 set -Ux GIST_ID 'fd35d81711ecf6cc4eb7ac5c85d371dc'
@@ -56,3 +56,20 @@ source ~/.tacklebox/tacklebox.fish
 
 # for starship prompt
 starship init fish | source
+
+# Paths to your tackle
+set tacklebox_path ~/.tackle ~/.tacklebox
+
+# Theme
+#set tacklebox_theme entropy
+
+# Which modules would you like to load? (modules can be found in ~/.tackle/modules/*)
+# Custom modules may be added to ~/.tacklebox/modules/
+# Example format: set tacklebox_modules virtualfish virtualhooks
+
+# Which plugins would you like to enable? (plugins can be found in ~/.tackle/plugins/*)
+# Custom plugins may be added to ~/.tacklebox/plugins/
+# Example format: set tacklebox_plugins python extract
+
+# Load Tacklebox configuration
+. ~/.tacklebox/tacklebox.fish
