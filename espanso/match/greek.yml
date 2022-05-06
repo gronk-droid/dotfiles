@@ -1,0 +1,172 @@
+matches:
+
+
+#  ▄█        ▄██████▄   ▄█     █▄     ▄████████    ▄████████  ▄████████    ▄████████    ▄████████    ▄████████
+# ███       ███    ███ ███     ███   ███    ███   ███    ███ ███    ███   ███    ███   ███    ███   ███    ███
+# ███       ███    ███ ███     ███   ███    █▀    ███    ███ ███    █▀    ███    ███   ███    █▀    ███    █▀
+# ███       ███    ███ ███     ███  ▄███▄▄▄      ▄███▄▄▄▄██▀ ███          ███    ███   ███         ▄███▄▄▄
+# ███       ███    ███ ███     ███ ▀▀███▀▀▀     ▀▀███▀▀▀▀▀   ███        ▀███████████ ▀███████████ ▀▀███▀▀▀
+# ███       ███    ███ ███     ███   ███    █▄  ▀███████████ ███    █▄    ███    ███          ███   ███    █▄
+# ███▌    ▄ ███    ███ ███ ▄█▄ ███   ███    ███   ███    ███ ███    ███   ███    ███    ▄█    ███   ███    ███
+# █████▄▄██  ▀██████▀   ▀███▀███▀    ██████████   ███    ███ ████████▀    ███    █▀   ▄████████▀    ██████████
+# ▀                                               ███    ███
+
+  - trigger: ":alpha"
+    replace: α
+
+  - trigger: ":beta"
+    replace: β
+
+  - trigger: ":chi"
+    replace: χ
+
+  - trigger: ":delta"
+    replace: δ
+
+  - trigger: ":epsilon"
+    replace: ε
+
+  - trigger: ":phi"
+    replace: φ
+
+  - trigger: ":gamma"
+    replace: γ
+
+  - trigger: ":eta"
+    replace: η
+
+  - trigger: ":iota"
+    replace: ι
+
+  - trigger: ":kappa"
+    replace: κ
+
+  - trigger: ":lambda"
+    replace: λ
+
+  - trigger: ":mu"
+    replace: μ
+
+  - trigger: ":nu"
+    replace: ν
+
+  - trigger: ":omicron"
+    replace: ο
+
+  - trigger: ":pi"
+    replace: π
+
+  - trigger: ":theta"
+    replace: θ
+
+  - trigger: ":rho"
+    replace: ρ
+
+  - trigger: ":sigma"
+    replace: σ
+
+  - trigger: ":tau"
+    replace: τ
+
+  - trigger: ":upsilon"
+    replace: υ
+
+  - trigger: ":omega"
+    replace: ω
+
+  - trigger: ":xi"
+    replace: ξ
+
+  - trigger: ":psi"
+    replace: ψ
+
+  - trigger: ":zeta"
+    replace: ζ
+
+
+
+# ███    █▄     ▄███████▄    ▄███████▄    ▄████████    ▄████████  ▄████████    ▄████████    ▄████████    ▄████████
+# ███    ███   ███    ███   ███    ███   ███    ███   ███    ███ ███    ███   ███    ███   ███    ███   ███    ███
+# ███    ███   ███    ███   ███    ███   ███    █▀    ███    ███ ███    █▀    ███    ███   ███    █▀    ███    █▀
+# ███    ███   ███    ███   ███    ███  ▄███▄▄▄      ▄███▄▄▄▄██▀ ███          ███    ███   ███         ▄███▄▄▄
+# ███    ███ ▀█████████▀  ▀█████████▀  ▀▀███▀▀▀     ▀▀███▀▀▀▀▀   ███        ▀███████████ ▀███████████ ▀▀███▀▀▀
+# ███    ███   ███          ███          ███    █▄  ▀███████████ ███    █▄    ███    ███          ███   ███    █▄
+# ███    ███   ███          ███          ███    ███   ███    ███ ███    ███   ███    ███    ▄█    ███   ███    ███
+# ████████▀   ▄████▀       ▄████▀        ██████████   ███    ███ ████████▀    ███    █▀   ▄████████▀    ██████████
+#                                                     ███    ███
+
+
+
+
+
+  - trigger: ":upperalpha"
+    replace: Α
+
+  - trigger: ":upperbeta"
+    replace: Β
+
+  - trigger: ":upperchi"
+    replace: Χ
+
+  - trigger: ":upperdelta"
+    replace: Δ
+
+  - trigger: ":upperepsilon"
+    replace: Ε
+
+  - trigger: ":upperphi"
+    replace: Φ
+
+  - trigger: ":uppergamma"
+    replace: Γ
+
+  - trigger: ":uppereta"
+    replace: Η
+
+  - trigger: ":upperiota"
+    replace: Ι
+
+  - trigger: ":upperkappa"
+    replace: Κ
+
+  - trigger: ":upperlambda"
+    replace: Λ
+
+  - trigger: ":uppermu"
+    replace: Μ
+
+  - trigger: ":uppernu"
+    replace: Ν
+
+  - trigger: ":upperomicron"
+    replace: Ο
+
+  - trigger: ":upperpi"
+    replace: Π
+
+  - trigger: ":uppertheta"
+    replace: Θ
+
+  - trigger: ":upperrho"
+    replace: Ρ
+
+  - trigger: ":uppersigma"
+    replace: Σ
+
+  - trigger: ":uppertau"
+    replace: Τ
+
+  - trigger: ":upperupsilon"
+    replace: Υ
+
+  - trigger: ":upperomega"
+    replace: Ω
+
+  - trigger: ":upperxi"
+    replace: Ξ
+
+  - trigger: ":upperpsi"
+    replace: Ψ
+
+  - trigger: ":upperzeta"
+    replace: Ζ
