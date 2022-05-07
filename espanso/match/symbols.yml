@@ -14,22 +14,12 @@ matches:
     replace: ∈
   - trigger: ":implies"
     replace: ⟹
+  - trigger: ":subset"
+    replace: ⊆
   - trigger: ":exists"
     replace: ∃
   - trigger: ":forall"
     replace: ∀
-  - trigger: ":lambda"
-    replace: λ
-  - trigger: ":sigma"
-    replace: σ
-  - trigger: ":uppersigma"
-    replace: Σ
-  - trigger: ":delta"
-    replace: δ
-  - trigger: ":upperdelta"
-    replace: Δ
-  - trigger: ":mu"
-    replace: μ
   - trigger: ":naturalnum"
     replace: ℕ
   - trigger: ":realnum"
