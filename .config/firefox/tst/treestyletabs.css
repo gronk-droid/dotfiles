@@ -266,7 +266,8 @@ tab-twisty::before {
 
 /* unloaded tab */
 .tab.discarded {
-  background-color: var(--forty-color);
+  background-color: var(--font-color);
+  color: var(--zero-color)
 }
 
 /* hide hidden tabs (it some times displays white area on larger tab sizes if this is not set) */
