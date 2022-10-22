@@ -99,74 +99,74 @@ matches:
 
 
 
-  - trigger: ":upperalpha"
+  - trigger: ":Alpha"
     replace: Α
 
-  - trigger: ":upperbeta"
+  - trigger: ":Beta"
     replace: Β
 
-  - trigger: ":upperchi"
+  - trigger: ":Chi"
     replace: Χ
 
-  - trigger: ":upperdelta"
+  - trigger: ":Delta"
     replace: Δ
 
-  - trigger: ":upperepsilon"
+  - trigger: ":Epsilon"
     replace: Ε
 
-  - trigger: ":upperphi"
+  - trigger: ":Phi"
     replace: Φ
 
-  - trigger: ":uppergamma"
+  - trigger: ":Gamma"
     replace: Γ
 
-  - trigger: ":uppereta"
+  - trigger: ":Eta"
     replace: Η
 
-  - trigger: ":upperiota"
+  - trigger: ":Iota"
     replace: Ι
 
-  - trigger: ":upperkappa"
+  - trigger: ":Kappa"
     replace: Κ
 
-  - trigger: ":upperlambda"
+  - trigger: ":Lambda"
     replace: Λ
 
-  - trigger: ":uppermu"
+  - trigger: ":Mu"
     replace: Μ
 
-  - trigger: ":uppernu"
+  - trigger: ":Nu"
     replace: Ν
 
-  - trigger: ":upperomicron"
+  - trigger: ":Omicron"
     replace: Ο
 
-  - trigger: ":upperpi"
+  - trigger: ":Pi"
     replace: Π
 
-  - trigger: ":uppertheta"
+  - trigger: ":Theta"
     replace: Θ
 
-  - trigger: ":upperrho"
+  - trigger: ":Rho"
     replace: Ρ
 
-  - trigger: ":uppersigma"
+  - trigger: ":Sigma"
     replace: Σ
 
-  - trigger: ":uppertau"
+  - trigger: ":Tau"
     replace: Τ
 
-  - trigger: ":upperupsilon"
+  - trigger: ":Upsilon"
     replace: Υ
 
-  - trigger: ":upperomega"
+  - trigger: ":Omega"
     replace: Ω
 
-  - trigger: ":upperxi"
+  - trigger: ":Xi"
     replace: Ξ
 
-  - trigger: ":upperpsi"
+  - trigger: ":Psi"
     replace: Ψ
 
-  - trigger: ":upperzeta"
+  - trigger: ":Zeta"
     replace: Ζ
