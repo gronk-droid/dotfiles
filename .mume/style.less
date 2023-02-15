@@ -1,0 +1,218 @@
+
+/* Please visit the URL below for more information: */
+/*   https://shd101wyy.github.io/markdown-preview-enhanced/#/customize-css */
+
+.markdown-preview.markdown-preview {
+    @mono-zero    :                 #FDFFF1;
+    @mono-twenty  :                 #caccc1;
+    @mono-forty   :                 #989991;
+    @mono-sixty   :                 #656660;
+    @mono-font    :                 #2d2a2e;
+  
+    // Colors -----------------------------------
+    @pink:                         #FF6188;
+    @orange:                       #FC9867;
+    @yellow:                       #FFD866;
+    @green:                        #A9DC76;
+    @blue:                         #78DCE8;
+    @purple:                       #AB9DF2;
+    @matcha:                       #c3e69f;
+    @teal:                         #87dcc6;
+  
+  //   #403e41:#ff6188:#a9dc76:#ffd866:#fc9867:#ab9df2:#78dce8:#fcfcfa
+  
+  
+    // @font-face {
+    //     font-family: "Computer Modern";
+    //     src: url('http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunss.otf');
+    // }
+    // @font-face {
+    //     font-family: "Computer Modern";
+    //     src: url('http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunsx.otf');
+    //     font-weight: bold;
+    // }
+    // @font-face {
+    //     font-family: "Computer Modern";
+    //     src: url('http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunsi.otf');
+    //     font-style: italic, oblique;
+    // }
+    // @font-face {
+    //     font-family: "Computer Modern";
+    //     src: url('http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunbxo.otf');
+    //     font-weight: bold;
+    //     font-style: italic, oblique;
+    // }
+  
+  
+    // body,
+    // h1,
+    // h2,
+    // h3,
+    // h4,
+    // h5,
+    // h6,
+    // p {
+    //     font-family: "Iosevka";
+    //     line-height: 1.5em;
+    // }
+    //
+    // .katex {
+    //     font-family: "Computer Modern", sans-serif;
+    //     line-height: 1.0em;
+    // }
+  
+    * {
+        font-family: "Iosevka";
+        line-height: 1.5em;
+    }
+  
+  
+    .center {
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        text-align-last: center;
+    }
+  
+    .centerImage {
+        display: block;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+    }
+  
+    .leftImage {
+        display: block;
+        justify-content: center;
+        margin-left: 10%;
+        margin-right: 50%;
+        width: 30%;
+    }
+  
+    .rightImage {
+        display: block;
+        justify-content: center;
+        margin-right: 10%;
+        margin-left: 50%;
+        width: 30%;
+    }
+  
+    .titlePage {
+        // text-align: justify;
+        text-align-last: center;
+        margin-top: 50%;
+        page-break-after: always;
+        break-after: page;
+    }
+  
+    .pageBreak {
+        page-break-after: always;
+        break-after: page;
+    }
+  
+    .leftTable {
+        display: block;
+        margin-left: 0px;
+        margin-right: auto;
+        width: 40%;
+    }
+  
+    .leftTable th {
+        background: rgba(0,0,0,0.2);
+    }
+  
+    .centerTable {
+        display: inline-table;
+        margin-left: 15%;
+        margin-right: 15%;
+        width: fit-content(60%);
+    }
+  
+    .centerTable th {
+        background: rgba(0,0,0,0.4);
+    }
+  
+    .highlightFirstColumn tr td:nth-child(1) {
+        background: rgba(0,0,0,0.2);
+    }
+  
+    .tab {
+        tab-size: 4;
+    }
+  
+    .leftColumn {
+        float: left;
+        width: 50%;
+    }
+  
+    .rightColumn {
+        float: right;
+        width: 50%;
+    }
+  
+    .footnote {
+        position: relative;
+        // margin-bottom: 0;
+        bottom: 0;
+    }
+  
+    h6 {
+        color: @mono-forty;
+    }
+  
+    a {
+        color: @blue;
+    }
+  
+  
+  
+  
+  //     ███        ▄████████ ▀████    ▐████▀     ███           ▄████████  ▄██████▄   ▄█        ▄██████▄     ▄████████
+  // ▀█████████▄   ███    ███   ███▌   ████▀  ▀█████████▄      ███    ███ ███    ███ ███       ███    ███   ███    ███
+  //    ▀███▀▀██   ███    █▀     ███  ▐███       ▀███▀▀██      ███    █▀  ███    ███ ███       ███    ███   ███    ███
+  //     ███   ▀  ▄███▄▄▄        ▀███▄███▀        ███   ▀      ███        ███    ███ ███       ███    ███  ▄███▄▄▄▄██▀
+  //     ███     ▀▀███▀▀▀        ████▀██▄         ███          ███        ███    ███ ███       ███    ███ ▀▀███▀▀▀▀▀
+  //     ███       ███    █▄    ▐███  ▀███        ███          ███    █▄  ███    ███ ███       ███    ███ ▀███████████
+  //     ███       ███    ███  ▄███     ███▄      ███          ███    ███ ███    ███ ███▌    ▄ ███    ███   ███    ███
+  //    ▄████▀     ██████████ ████       ███▄    ▄████▀        ████████▀   ▀██████▀  █████▄▄██  ▀██████▀    ███    ███
+  //                                                                                 ▀                      ███    ███
+  
+    .textPink {
+        color: @pink !important;
+    }
+  
+    .textOrange {
+        color: @orange;
+    }
+  
+    .textYellow {
+        color: @yellow;
+    }
+  
+    .textGreen {
+        color: @green;
+    }
+  
+    .textBlue {
+        color: @blue;
+    }
+  
+    .textPurple {
+        color: @purple;
+    }
+  
+    .textMatcha {
+        color: @matcha;
+    }
+  
+    .textTeal {
+        color: @teal;
+    }
+  
+    pre, code {
+      white-space: pre-wrap;
+    }
+  
+  }
+  

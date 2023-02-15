@@ -2,12 +2,9 @@
 *.token
 
 # Atom sync
-/.atom/blob-store/
-/.atom/compile-cache/
-/.atom/packages/
-/.atom/storage/
-
 /.atom/config.cson
-/.atom/styles.less
-/.atom/packages.cson
+/.atom/blob-store/
+/.atom/packages/
+/.atom/recovery/
 /.atom/kite-config.json
+/.atom/packages.cson

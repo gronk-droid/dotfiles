@@ -12,3 +12,6 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory
 ; switch desktop left and right based on arrow keys
 <!<^Left::switchDesktopToLeft()
 <!<^Right::switchDesktopToRight()
+
+<!<^Home::deleteVirtualDesktop()
+<!<^End::createVirtualDesktop()
