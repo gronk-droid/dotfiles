@@ -38,16 +38,16 @@
    | C | O | L | O | R | S |
    +---+---+---+---+---+---*/
 
-                                                        /*   Dark        Light   */
-  --window-color:                var(--zero-color);     /* #1E2021;     #FAFAFC; */
-  --secondary-color:             var(--twenty-color);   /* #191B1C;     #EAEAEC; */
-  --inverted-color:              #eeeede;               /* #FAFAFC;     #1E2021; */
+  /*   Dark        Light   */
+  --window-color: var(--zero-color); /* #1E2021;     #FAFAFC; */
+  --secondary-color: var(--twenty-color); /* #191B1C;     #EAEAEC; */
+  --inverted-color: #eeeede; /* #FAFAFC;     #1E2021; */
 
-  --zero-color  :                 #FDFFF1;
-  --twenty-color:                 #caccc1;
-  --forty-color :                 #989991;
-  --sixty-color :                 #656660;
-  --font-color  :                 #2d2a2e;
+  --zero-color: #fdfff1;
+  --twenty-color: #caccc1;
+  --forty-color: #989991;
+  --sixty-color: #656660;
+  --font-color: #2d2a2e;
 
   /* html[data-theme='light'] {
     --zero-color  :                 #FDFFF1;
@@ -66,51 +66,45 @@
   } */
 
   /* Containter Tab Colours */
-  --uc-identity-color-blue:      #7ED6DF;
-  --uc-identity-color-turquoise: #55E6C1;
-  --uc-identity-color-green:     #B8E994;
-  --uc-identity-color-yellow:    #F7D794;
-  --uc-identity-color-orange:    #F19066;
-  --uc-identity-color-red:       #FC5C65;
-  --uc-identity-color-pink:      #F78FB3;
-  --uc-identity-color-purple:    #786FA6;
-
+  --uc-identity-color-blue: #7ed6df;
+  --uc-identity-color-turquoise: #55e6c1;
+  --uc-identity-color-green: #b8e994;
+  --uc-identity-color-yellow: #f7d794;
+  --uc-identity-color-orange: #f19066;
+  --uc-identity-color-red: #fc5c65;
+  --uc-identity-color-pink: #f78fb3;
+  --uc-identity-color-purple: #786fa6;
 
   /* URL color in URL bar suggestions */
   --urlbar-popup-url-color: var(--uc-identity-color-purple) !important;
-
-
 
   /*---+---+---+---+---+---+---+
    | V | I | S | U | A | L | S |
    +---+---+---+---+---+---+---*/
 
-   /* global border radius */
-   --uc-border-radius: 0;
+  /* global border radius */
+  --uc-border-radius: 0;
 
-   /* dynamic url bar width settings */
-   --uc-urlbar-width: clamp(1000px, 40vw, 500px);
+  /* dynamic url bar width settings */
+  --uc-urlbar-width: clamp(150px, 40vw, 500px);
 
-   /* dynamic tab width settings */
-   --uc-active-tab-width:   clamp(100px, 20vw, 300px);
-   --uc-inactive-tab-width: clamp( 50px, 15vw, 200px);
+  /* dynamic tab width settings */
+  --uc-active-tab-width: clamp(100px, 20vw, 300px);
+  --uc-inactive-tab-width: clamp(50px, 15vw, 200px);
 
-   /* if active always shows the tab close button */
-   --show-tab-close-button: none; /* DEFAULT: -moz-inline-box; */
+  /* if active always shows the tab close button */
+  --show-tab-close-button: none; /* DEFAULT: -moz-inline-box; */
 
-   /* if active only shows the tab close button on hover*/
-   --show-tab-close-button-hover: none; /* DEFAULT: -moz-inline-box; */
+  /* if active only shows the tab close button on hover*/
+  --show-tab-close-button-hover: none; /* DEFAULT: -moz-inline-box; */
 
-   /* adds left and right margin to the container-tabs indicator */
-   --container-tabs-indicator-margin: 10px;
-
+  /* adds left and right margin to the container-tabs indicator */
+  --container-tabs-indicator-margin: 10px;
 }
 
-*
-{
-    font-family: "Iosevka Aile" !important;
+* {
+  font-family: "Iosevka Aile" !important;
 }
-
 
 /* html[data-theme='dark'] {
   --zero-color  :                 #272822;
@@ -136,55 +130,71 @@ html[data-theme='dark-pro'] {
   --font-color  :                 #FDFFF1;
 } */
 
-    /*---+---+---+---+---+---+---+
+/*---+---+---+---+---+---+---+
      | B | U | T | T | O | N | S |
      +---+---+---+---+---+---+---*/
 
-     /* #back-button, #forward-button { display: none !important; } */
+/* #back-button, #forward-button { display: none !important; } */
 
-     /* bookmark icon */
-     #star-button{ display: none !important; }
+/* bookmark icon */
+#star-button {
+  display: none !important;
+}
 
-     /* zoom indicator */
-     #urlbar-zoom-button { display: none !important; }
+/* zoom indicator */
+#urlbar-zoom-button {
+  display: none !important;
+}
 
-     /* Make button small as Possible, hidden out of sight */
-     /* #PanelUI-button { margin-top: -5px; margin-bottom: 44px; } */
-     #PanelUI-button {
-         position: fixed;
-         top: 4px; right: 0;
+/* Make button small as Possible, hidden out of sight */
+/* #PanelUI-button { margin-top: -5px; margin-bottom: 44px; } */
+#PanelUI-button {
+  position: fixed;
+  top: 4px;
+  right: 0;
 
-         display: block;
+  display: block;
+}
 
-    }
+#PanelUI-menu-button {
+  padding: 0px !important;
+  max-height: 1px;
 
-     #PanelUI-menu-button {
+  list-style-image: none !important;
+}
 
-        padding: 0px !important;
-        max-height: 1px;
+#PanelUI-menu-button .toolbarbutton-icon {
+  width: 1px !important;
+}
+#PanelUI-menu-button .toolbarbutton-badge-stack {
+  padding: 0px !important;
+}
 
-        list-style-image: none !important;
+#reader-mode-button {
+  display: none !important;
+}
 
-     }
+/* tracking protection shield icon */
+/* #tracking-protection-icon-container { display: none !important; } */
 
-     #PanelUI-menu-button .toolbarbutton-icon { width: 1px !important; }
-     #PanelUI-menu-button .toolbarbutton-badge-stack { padding: 0px !important; }
-
-     #reader-mode-button{ display: none !important; }
-
-     /* tracking protection shield icon */
-     /* #tracking-protection-icon-container { display: none !important; } */
-
-     #identity-box { display: none !important } /* hides encryption AND permission items
+#identity-box {
+  display: none !important;
+} /* hides encryption AND permission items
      #identity-permission-box { display: none !important; } /* only hodes permission items */
 
-     /* e.g. playing indicator (secondary - not icon) */
-     .tab-secondary-label { display: none !important; }
+/* e.g. playing indicator (secondary - not icon) */
+.tab-secondary-label {
+  display: none !important;
+}
 
-     #pageActionButton { display: none !important; }
-     #page-action-buttons { display: none !important; }
+#pageActionButton {
+  display: none !important;
+}
+#page-action-buttons {
+  display: none !important;
+}
 
-     /* #urlbar-go-button { display: none !important; } */
+/* #urlbar-go-button { display: none !important; } */
 
 /*=============================================================================================*/
 
@@ -195,40 +205,40 @@ html[data-theme='dark-pro'] {
 /* No need to change anything below this comment.
  * Just tweak it if you want to tweak the overall layout. c: */
 
- :root {
+:root {
+  --uc-theme-color: var(--window-color, var(--toolbar-bgcolor));
+  --uc-hover-color: var(--secondary-color, rgba(0, 0, 0, 0.2));
+  --uc-inverted-color: var(--inverted-color, var(--toolbar-color));
 
-     --uc-theme-color:                          var(--window-color,    var(--toolbar-bgcolor));
-     --uc-hover-color:                          var(--secondary-color, rgba(0, 0, 0, 0.2));
-     --uc-inverted-color:                       var(--inverted-color,  var(--toolbar-color));
+  --button-bgcolor: var(--uc-theme-color) !important;
+  --button-hover-bgcolor: var(--uc-hover-color) !important;
+  --button-active-bgcolor: var(--uc-hover-color) !important;
 
-     --button-bgcolor:                           var(--uc-theme-color)    !important;
-     --button-hover-bgcolor:                     var(--uc-hover-color)    !important;
-     --button-active-bgcolor:                    var(--uc-hover-color)    !important;
+  --toolbarbutton-border-radius: var(--uc-border-radius) !important;
 
-     --toolbarbutton-border-radius:              var(--uc-border-radius)   !important;
+  --tab-border-radius: var(--uc-border-radius) !important;
+  --lwt-text-color: var(--uc-inverted-color) !important;
+  --lwt-tab-text: var(--uc-inverted-color) !important;
 
-     --tab-border-radius:                        var(--uc-border-radius)   !important;
-     --lwt-text-color:                           var(--uc-inverted-color) !important;
-     --lwt-tab-text:                             var(--uc-inverted-color) !important;
+  --arrowpanel-border-radius: var(--uc-border-radius) !important;
 
-     --arrowpanel-border-radius:                 var(--uc-border-radius)   !important;
+  --tab-block-margin: 2px !important;
+}
 
-     --tab-block-margin: 2px !important;
+#nav-bar,
+#TabsToolbar {
+  visibility: visible;
+}
 
- }
-/* #nav-bar,
-#TabsToolbar, */
 #window,
 #toolbar-menubar,
 #PersonalToolbar,
-#navigator-toolbox{
+#navigator-toolbox {
+  -moz-appearance: none;
 
-    -moz-appearance: none !important;
-
-    border: none !important;
-    box-shadow: none !important;
-    background: var(--uc-theme-color) !important;
-
+  border: none !important;
+  box-shadow: none !important;
+  background: var(--uc-theme-color) !important;
 }
 
 /* =========================== sidebar =========================== */
@@ -237,289 +247,288 @@ html[data-theme='dark-pro'] {
   display: none !important;
 }
 
-#sidebar-box[sidebarcommand="treestyletab_piro_sakura_ne_jp-sidebar-action"] #sidebar-header {
+#sidebar-box[sidebarcommand="treestyletab_piro_sakura_ne_jp-sidebar-action"]
+  #sidebar-header {
   display: none !important;
 }
 
 /*Collapse in default state and add transition*/
 #sidebar-box[sidebarcommand="treestyletab_piro_sakura_ne_jp-sidebar-action"],
-  #sidebar{
-    overflow: hidden;
-    min-width: 40px;
-    max-width: 40px;
-    transition: all 0.2s ease-out 0s;
-    border-right: none !important;
-    z-index: 2;
+#sidebar {
+  overflow: hidden;
+  min-width: 10px !important;
+  max-width: 10px !important;
+  transition: all 0.2s ease-out 0s;
+  border-right: none !important;
+  z-index: 2;
 }
 
 /*Expand to 500px on hover*/
 #sidebar-box[sidebarcommand="treestyletab_piro_sakura_ne_jp-sidebar-action"]:hover,
 #sidebar-box[sidebarcommand="treestyletab_piro_sakura_ne_jp-sidebar-action"]
   #sidebar {
-    min-width: 500px !important;
-    max-width: 500px !important;
-    transition: all 0.2s ease-out 0s;
-    border-right: none !important;
-    z-index: 1;
+  min-width: 500px !important;
+  max-width: 500px !important;
+  transition: all 0.2s ease-out 0s;
+  border-right: none !important;
+  z-index: 1;
 }
 
 #sidebar {
   border-right: none !important;
 }
 
-#sidebar{
+#sidebar {
   background-color: var(--window-color) !important;
 }
 
 @media {
-    :root{
-        --dark-sidebar: var(--window-color) !important;
-        --dark-sidebar-text: var(--font-color) !important;
-        --dark-sidebar-border: var(--window-color) !important;
-        --sidebar-border: none !important;
-        --in-content-box-background: var(--window-color) !important;
-    }
+  :root {
+    --dark-sidebar: var(--window-color) !important;
+    --dark-sidebar-text: var(--font-color) !important;
+    --dark-sidebar-border: var(--window-color) !important;
+    --sidebar-border: none !important;
+    --in-content-box-background: var(--window-color) !important;
+  }
 }
 
 /* =========================== main window =========================== */
 
-#main-window[tabsintitlebar="true"]:not([extradragspace="true"]) #TabsToolbar
-    > .toolbar-items {
-      opacity: 0;
-      pointer-events: none;
+#main-window[tabsintitlebar="true"]:not([extradragspace="true"])
+  #TabsToolbar
+  > .toolbar-items {
+  opacity: 0;
+  pointer-events: none;
 }
 #main-window:not([tabsintitlebar="true"]) #TabsToolbar {
-    visibility: collapse !important;
+  visibility: collapse !important;
 }
 
-#main-window{
+#main-window {
   border-left: none !important;
 }
 
 /* grey out ccons inside the toolbar to make it
  * more aligned with the Black & White color look */
 #PersonalToolbar toolbarbutton:not(:hover),
-#bookmarks-toolbar-button:not(:hover) { filter: grayscale(1) !important; }
-
+#bookmarks-toolbar-button:not(:hover) {
+  filter: grayscale(1) !important;
+}
 
 /* remove window control buttons */
-.titlebar-buttonbox-container { display: none !important; }
-
+.titlebar-buttonbox-container {
+  display: none !important;
+}
 
 /* remove "padding" left and right from tabs */
-.titlebar-spacer { display: none !important; }
-
+.titlebar-spacer {
+  display: none !important;
+}
 
 /* remove gap after pinned tabs */
 #tabbrowser-tabs[haspinnedtabs]:not([positionpinnedtabs])
-    > #tabbrowser-arrowscrollbox
-    > .tabbrowser-tab[first-visible-unpinned-tab] { margin-inline-start: 0 !important; }
-
+  > #tabbrowser-arrowscrollbox
+  > .tabbrowser-tab[first-visible-unpinned-tab] {
+  margin-inline-start: 0 !important;
+}
 
 /* remove tab shadow */
-.tabbrowser-tab
-    >.tab-stack
-    > .tab-background { box-shadow: none !important;  }
-
+.tabbrowser-tab > .tab-stack > .tab-background {
+  box-shadow: none !important;
+}
 
 /* tab background */
-.tabbrowser-tab
-    > .tab-stack
-    > .tab-background { background: var(--uc-theme-color) !important; }
-
+.tabbrowser-tab > .tab-stack > .tab-background {
+  background: var(--uc-theme-color) !important;
+}
 
 /* active tab background */
-.tabbrowser-tab[selected]
-    > .tab-stack
-    > .tab-background { background: var(--uc-hover-color) !important; }
-
+.tabbrowser-tab[selected] > .tab-stack > .tab-background {
+  background: var(--uc-hover-color) !important;
+}
 
 /* multi tab selection */
-#tabbrowser-tabs:not([noshadowfortests]) .tabbrowser-tab:is([visuallyselected=true], [multiselected]) > .tab-stack > .tab-background:-moz-lwtheme { background: var(--uc-hover-color) !important; }
-
+#tabbrowser-tabs:not([noshadowfortests])
+  .tabbrowser-tab:is([visuallyselected="true"], [multiselected])
+  > .tab-stack
+  > .tab-background:-moz-lwtheme {
+  background: var(--uc-hover-color) !important;
+}
 
 /* tab close button options */
-.tabbrowser-tab:not([pinned]) .tab-close-button { display: var(--show-tab-close-button) !important; }
-.tabbrowser-tab:not([pinned]):hover .tab-close-button { display: var(--show-tab-close-button-hover) !important }
-
+.tabbrowser-tab:not([pinned]) .tab-close-button {
+  display: var(--show-tab-close-button) !important;
+}
+.tabbrowser-tab:not([pinned]):hover .tab-close-button {
+  display: var(--show-tab-close-button-hover) !important;
+}
 
 /* adaptive tab width */
-.tabbrowser-tab[selected][fadein]:not([pinned]) { max-width: var(--uc-active-tab-width) !important; }
-.tabbrowser-tab[fadein]:not([selected]):not([pinned]) { max-width: var(--uc-inactive-tab-width) !important; }
-
+.tabbrowser-tab[selected][fadein]:not([pinned]) {
+  max-width: var(--uc-active-tab-width) !important;
+}
+.tabbrowser-tab[fadein]:not([selected]):not([pinned]) {
+  max-width: var(--uc-inactive-tab-width) !important;
+}
 
 /* container tabs indicator */
 .tabbrowser-tab[usercontextid]
-    > .tab-stack
-    > .tab-background
-    > .tab-context-line {
+  > .tab-stack
+  > .tab-background
+  > .tab-context-line {
+  margin: -1px var(--container-tabs-indicator-margin) 0
+    var(--container-tabs-indicator-margin) !important;
 
-        margin: -1px var(--container-tabs-indicator-margin) 0 var(--container-tabs-indicator-margin) !important;
-
-        border-radius: var(--tab-border-radius) !important;
-
+  border-radius: var(--tab-border-radius) !important;
 }
 
 /* show favicon when media is playing but tab is hovered */
-.tab-icon-image:not([pinned]) { opacity: 1 !important; }
-
+.tab-icon-image:not([pinned]) {
+  opacity: 1 !important;
+}
 
 /* Makes the speaker icon to always appear if the tab is playing (not only on hover) */
 .tab-icon-overlay:not([crashed]),
 .tab-icon-overlay[pinned][crashed][selected] {
-
   top: 5px !important;
   z-index: 1 !important;
 
   padding: 1.5px !important;
   inset-inline-end: -8px !important;
-  width: 16px !important; height: 16px !important;
+  width: 16px !important;
+  height: 16px !important;
 
   border-radius: 10px !important;
-
 }
 
-
 /* style and position speaker icon */
-.tab-icon-overlay:not([sharing], [crashed]):is([soundplaying], [muted], [activemedia-blocked]) {
-
+.tab-icon-overlay:not([sharing], [crashed]):is(
+    [soundplaying],
+    [muted],
+    [activemedia-blocked]
+  ) {
   stroke: transparent !important;
   background: transparent !important;
-  opacity: 1 !important; fill-opacity: 0.8 !important;
+  opacity: 1 !important;
+  fill-opacity: 0.8 !important;
 
   color: currentColor !important;
 
   stroke: var(--uc-theme-color) !important;
   background-color: var(--uc-theme-color) !important;
-
 }
-
 
 /* change the colours of the speaker icon on active tab to match tab colours */
-.tabbrowser-tab[selected] .tab-icon-overlay:not([sharing], [crashed]):is([soundplaying], [muted], [activemedia-blocked]) {
-
+.tabbrowser-tab[selected]
+  .tab-icon-overlay:not([sharing], [crashed]):is(
+    [soundplaying],
+    [muted],
+    [activemedia-blocked]
+  ) {
   stroke: var(--uc-hover-color) !important;
   background-color: var(--uc-hover-color) !important;
-
 }
 
+.tab-icon-overlay:not([pinned], [sharing], [crashed]):is(
+    [soundplaying],
+    [muted],
+    [activemedia-blocked]
+  ) {
+  margin-inline-end: 9.5px !important;
+}
 
-.tab-icon-overlay:not([pinned], [sharing], [crashed]):is([soundplaying], [muted], [activemedia-blocked]) { margin-inline-end: 9.5px !important; }
-
-
-.tabbrowser-tab:not([image]) .tab-icon-overlay:not([pinned], [sharing], [crashed]) {
-
+.tabbrowser-tab:not([image])
+  .tab-icon-overlay:not([pinned], [sharing], [crashed]) {
   top: 0 !important;
 
   padding: 0 !important;
   margin-inline-end: 5.5px !important;
   inset-inline-end: 0 !important;
-
 }
-
 
 .tab-icon-overlay:not([crashed])[soundplaying]:hover,
 .tab-icon-overlay:not([crashed])[muted]:hover,
 .tab-icon-overlay:not([crashed])[activemedia-blocked]:hover {
-
-    color: currentColor !important;
-    stroke: var(--uc-inverted-color) !important;
-    background-color: var(--uc-inverted-color) !important;
-    fill-opacity: 0.95 !important;
-
+  color: currentColor !important;
+  stroke: var(--uc-inverted-color) !important;
+  background-color: var(--uc-inverted-color) !important;
+  fill-opacity: 0.95 !important;
 }
-
 
 .tabbrowser-tab[selected] .tab-icon-overlay:not([crashed])[soundplaying]:hover,
 .tabbrowser-tab[selected] .tab-icon-overlay:not([crashed])[muted]:hover,
-.tabbrowser-tab[selected] .tab-icon-overlay:not([crashed])[activemedia-blocked]:hover {
-
-    color: currentColor !important;
-    stroke: var(--uc-inverted-color) !important;
-    background-color: var(--uc-inverted-color) !important;
-    fill-opacity: 0.95 !important;
-
+.tabbrowser-tab[selected]
+  .tab-icon-overlay:not([crashed])[activemedia-blocked]:hover {
+  color: currentColor !important;
+  stroke: var(--uc-inverted-color) !important;
+  background-color: var(--uc-inverted-color) !important;
+  fill-opacity: 0.95 !important;
 }
-
 
 /* speaker icon color fix */
 #TabsToolbar .tab-icon-overlay:not([crashed])[soundplaying],
 #TabsToolbar .tab-icon-overlay:not([crashed])[muted],
-#TabsToolbar .tab-icon-overlay:not([crashed])[activemedia-blocked] { color: var(--uc-inverted-color) !important; }
-
+#TabsToolbar .tab-icon-overlay:not([crashed])[activemedia-blocked] {
+  color: var(--uc-inverted-color) !important;
+}
 
 /* speaker icon color fix on hover */
 #TabsToolbar .tab-icon-overlay:not([crashed])[soundplaying]:hover,
 #TabsToolbar .tab-icon-overlay:not([crashed])[muted]:hover,
-#TabsToolbar .tab-icon-overlay:not([crashed])[activemedia-blocked]:hover { color: var(--uc-theme-color) !important; }
-
-
-
-
-
-#nav-bar {
-
-    border:     none !important;
-    box-shadow: none !important;
-    background: transparent !important;
-
+#TabsToolbar .tab-icon-overlay:not([crashed])[activemedia-blocked]:hover {
+  color: var(--uc-theme-color) !important;
 }
 
+#nav-bar {
+  border: none !important;
+  box-shadow: none !important;
+  background: transparent !important;
+}
 
 /* remove border below whole nav */
-#navigator-toolbox { border-bottom: none !important; }
-
+#navigator-toolbox {
+  border-bottom: none !important;
+}
 
 #urlbar,
 #urlbar * {
-
-    outline: none !important;
-    box-shadow: none !important;
-
+  outline: none !important;
+  box-shadow: none !important;
 }
 
+#urlbar-background {
+  border: var(--uc-hover-color) !important;
+}
 
-#urlbar-background { border: var(--uc-hover-color) !important; }
+#urlbar[focused="true"] > #urlbar-background,
+#urlbar:not([open]) > #urlbar-background {
+  background: transparent !important;
+}
 
+#urlbar[open] > #urlbar-background {
+  background: var(--uc-theme-color) !important;
+}
 
-#urlbar[focused="true"]
-    > #urlbar-background,
-#urlbar:not([open])
-    > #urlbar-background { background: transparent !important; }
-
-
-#urlbar[open]
-    > #urlbar-background { background: var(--uc-theme-color) !important; }
-
-
-.urlbarView-row:hover
-    > .urlbarView-row-inner,
-.urlbarView-row[selected]
-    > .urlbarView-row-inner { background: var(--uc-hover-color) !important; }
-
-
-
-
+.urlbarView-row:hover > .urlbarView-row-inner,
+.urlbarView-row[selected] > .urlbarView-row-inner {
+  background: var(--uc-hover-color) !important;
+}
 
 /* transition to oneline */
 @media (min-width: 0px) {
+  /* move tabs bar over */
+  margin-left: var(--uc-urlbar-width) !important;
+  #TabsToolbar {
+    margin-left: 0;
+  }
 
-
-    /* move tabs bar over */
-    margin-left: var(--uc-urlbar-width) !important;
-    #TabsToolbar { margin-left: 0;}
-
-
-    /* move entire nav bar  */
-    #nav-bar {
-      margin-top: calc((var(--urlbar-min-height) * -1) - 8px) !important;
-      margin-right:  calc(75vw - var(--uc-urlbar-width)) !important;
-      margin-bottom: 0 !important;
-      margin-left: 0 !important;
-
-    }
-
-
+  /* move entire nav bar  */
+  #nav-bar {
+    margin-top: calc((var(--urlbar-min-height) * -1) - 8px) !important;
+    margin-right: calc(75vw - var(--uc-urlbar-width)) !important;
+    margin-bottom: 0 !important;
+    margin-left: 0 !important;
+  }
 } /* end media query */
 
 @-moz-document regexp(/moz-extension:\/\/.+\/resources\/group-tab.html.+) {
@@ -528,14 +537,36 @@ html[data-theme='dark-pro'] {
   }
 }
 
-
-
 /* Container Tabs */
-.identity-color-blue      { --identity-tab-color: var(--uc-identity-color-blue)      !important; --identity-icon-color: var(--uc-identity-color-blue)      !important; }
-.identity-color-turquoise { --identity-tab-color: var(--uc-identity-color-turquoise) !important; --identity-icon-color: var(--uc-identity-color-turquoise) !important; }
-.identity-color-green     { --identity-tab-color: var(--uc-identity-color-green)     !important; --identity-icon-color: var(--uc-identity-color-green)     !important; }
-.identity-color-yellow    { --identity-tab-color: var(--uc-identity-color-yellow)    !important; --identity-icon-color: var(--uc-identity-color-yellow)    !important; }
-.identity-color-orange    { --identity-tab-color: var(--uc-identity-color-orange)    !important; --identity-icon-color: var(--uc-identity-color-orange)    !important; }
-.identity-color-red       { --identity-tab-color: var(--uc-identity-color-red)       !important; --identity-icon-color: var(--uc-identity-color-red)       !important; }
-.identity-color-pink      { --identity-tab-color: var(--uc-identity-color-pink)      !important; --identity-icon-color: var(--uc-identity-color-pink)      !important; }
-.identity-color-purple    { --identity-tab-color: var(--uc-identity-color-purple)    !important; --identity-icon-color: var(--uc-identity-color-purple)    !important; }
+.identity-color-blue {
+  --identity-tab-color: var(--uc-identity-color-blue) !important;
+  --identity-icon-color: var(--uc-identity-color-blue) !important;
+}
+.identity-color-turquoise {
+  --identity-tab-color: var(--uc-identity-color-turquoise) !important;
+  --identity-icon-color: var(--uc-identity-color-turquoise) !important;
+}
+.identity-color-green {
+  --identity-tab-color: var(--uc-identity-color-green) !important;
+  --identity-icon-color: var(--uc-identity-color-green) !important;
+}
+.identity-color-yellow {
+  --identity-tab-color: var(--uc-identity-color-yellow) !important;
+  --identity-icon-color: var(--uc-identity-color-yellow) !important;
+}
+.identity-color-orange {
+  --identity-tab-color: var(--uc-identity-color-orange) !important;
+  --identity-icon-color: var(--uc-identity-color-orange) !important;
+}
+.identity-color-red {
+  --identity-tab-color: var(--uc-identity-color-red) !important;
+  --identity-icon-color: var(--uc-identity-color-red) !important;
+}
+.identity-color-pink {
+  --identity-tab-color: var(--uc-identity-color-pink) !important;
+  --identity-icon-color: var(--uc-identity-color-pink) !important;
+}
+.identity-color-purple {
+  --identity-tab-color: var(--uc-identity-color-purple) !important;
+  --identity-icon-color: var(--uc-identity-color-purple) !important;
+}

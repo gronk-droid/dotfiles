@@ -1,18 +1,17 @@
 :root {
-  --pink:                         #FF6188;
-  --orange:                       #FC9867;
-  --yellow:                       #FFD866;
-  --green:                        #A9DC76;
-  --blue:                         #78DCE8;
-  --purple:                       #AB9DF2;
-  --matcha:                       #c3e69f;
-  --teal:                         #87dcc6;
+  --pink:                         #FC5C65;
+  --orange:                       #F19066;
+  --yellow:                       #F7D794;
+  --green:                        #C3E69F;
+  --blue:                         #7ED6DF;
+  --purple:                       #786FA6;
+  --teal:                         #87DCC6;
 
-  --zero-color  :                 #FDFFF1;
-  --twenty-color:                 #caccc1;
-  --forty-color :                 #989991;
-  --sixty-color :                 #656660;
-  --font-color  :                 #2d2a2e;
+  --zero-color  :                 #2D2A2E;
+  --twenty-color:                 #3F3A3F;
+  --forty-color :                 #514A50;
+  --sixty-color :                 #625A60;
+  --font-color  :                 #FDFFF1;
 
   --grey1e:                       #1e1e1e;
   --grey24:                       #242424;
@@ -166,13 +165,14 @@ tab-item-substance {
 
 /* =========================== close x button =========================== */
 /* the x on each tab */
-tab-closebox::after{
+tab-closebox::after {
   background: url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/icons/x-lg.svg") no-repeat center / 100% !important;
   fill: var(--font-color) !important;
 }
 
 :root.simulate-svg-context-fill .closebox::after {
   background: var(--pink) !important;
+  margin-right: 3em;
   mask: url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/icons/x-lg.svg") no-repeat center / 100% !important;
   /* background: transparent;
   text-align: center; */
