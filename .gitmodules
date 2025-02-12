@@ -1,0 +1,3 @@
+[submodule ".config/firefox/lowcontrast"]
+	path = .config/firefox/lowcontrast
+	url = git@github.com:gronk-droid/firefox-lowcontrast
