@@ -20,12 +20,11 @@ by Miguel Avila
   }
 }
 
-/* *
+*
 {
     font-family: "Iosevka Aile" !important;
-} */
-
-@media {
+}
+/* @media {
     :root{
         --dark-sidebar: var(--window-color) !important;
         --dark-sidebar-text: var(--font-color) !important;
@@ -33,7 +32,7 @@ by Miguel Avila
         --sidebar-border: none !important;
         --in-content-box-background: var(--window-color) !important;
     }
-}
+} */
 
 /* html[data-theme='light'] {
   --zero-color  :                 #FDFFF1;

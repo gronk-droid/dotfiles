@@ -1,10 +1,2 @@
 .DS_Store
 *.token
-
-# Atom sync
-/.atom/config.cson
-/.atom/blob-store/
-/.atom/packages/
-/.atom/recovery/
-/.atom/kite-config.json
-/.atom/packages.cson

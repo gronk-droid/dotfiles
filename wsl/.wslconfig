@@ -2,3 +2,7 @@
 
 # disabling wslg
 guiApplications=false
+
+# Network BS
+# localhostForwarding=true
+# networkingMode=mirrored
