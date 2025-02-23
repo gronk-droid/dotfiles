@@ -54,3 +54,4 @@ source ~/.tacklebox/tacklebox.fish
 
 # for starship prompt
 starship init fish | source
+enable_transience
